@@ -148,8 +148,7 @@ function Hero() {
               whileInView={"show"}
             >
               <Link
-                href="/"
-                target="_blank"
+                href="/about"
                 className="group relative overflow-hidden bg-orange-600 focus:ring-4 focus:ring-orange-300 inline-flex items-center px-7 py-2.5 rounded-lg text-white justify-center"
               >
                 <span className="z-40">My Story</span>

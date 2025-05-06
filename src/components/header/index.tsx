@@ -23,9 +23,8 @@ export default function Home() {
           }`}
         >
           {" "}
-          <div className="text-white bg-gray-800 px-4  py-1 rounded-full opacity-80 flex items-center">
-            <span className=" flex justify-center pr-2">Home</span>{" "}
-            <ThemeToggle />
+          <div className="flex">
+            <span className=" flex justify-center pr-2"></span> <ThemeToggle />
           </div>
           <div
             onClick={() => {
