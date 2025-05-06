@@ -192,7 +192,7 @@ function Hero() {
         </div>
       </div>
       <Suspense fallback={""}>
-        <BackgroundBeams className="opacity-55" />
+        <BackgroundBeams className="opacity-55 md:min-w-auto md:min-h-auto min-w-[1000px] min-h-[1000px]" />
       </Suspense>
     </div>
   );
