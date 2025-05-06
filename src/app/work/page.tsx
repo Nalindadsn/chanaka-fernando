@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import Nav from "./Nav";
 import Hero from "./Hero";
 import Qualities from "./Qualities";
+import TechStack from "./TechStack";
 
 function page() {
   return (
@@ -12,6 +13,9 @@ function page() {
         <Suspense fallback={<div>Loading...</div>}>
           <Qualities />
         </Suspense>
+      </div>
+      <div>
+     <Suspense fallback={<div>Loading...</div>}>   <TechStack /></Suspense>
       </div>
       <div className="py-10 mt-20 bg-gray-900 border-t border-black shadow-md ">
         <div className="md:max-w-6xl mx-auto">
