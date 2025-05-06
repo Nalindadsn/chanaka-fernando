@@ -32,8 +32,11 @@ import {
   IconBrandRedux,
   IconBrandFigma,
   IconBrandDocker,
+  IconBrandPhp,
+  IconBrandPython,
 } from "@tabler/icons-react";
 import { CardContainer, CardBody, CardItem } from "@/components/ui/3d-card";
+import Image from "next/image";
 
 function TechStack() {
   const techCategories = [
@@ -52,6 +55,26 @@ function TechStack() {
         { name: "HTML5", icon: <IconBrandHtml5 className="text-[#E34F26]" /> },
         { name: "CSS3", icon: <IconBrandCss3 className="text-[#1572B6]" /> },
         { name: "C++", icon: <IconBrandCpp className="text-[#00599C]" /> },
+        { name: "PHP", icon: <IconBrandPhp className="text-[#00599C]" /> },
+        {
+          name: "JAVA",
+          icon: (
+            <>
+              {" "}
+              <Image
+                src="/java.png"
+                alt="springboot"
+                width={20}
+                height={20}
+                className="w-8 h-8"
+              />
+            </>
+          ),
+        },
+        {
+          name: "Python",
+          icon: <IconBrandPython className="text-[#00599C]" />,
+        },
       ],
     },
     {
@@ -70,10 +93,40 @@ function TechStack() {
           icon: <IconBrandNodejs className="text-[#339933]" />,
         },
         {
+          name: "Nest.js",
+          icon: (
+            <>
+              {" "}
+              <Image
+                src="/nestjs.png"
+                alt="springboot"
+                width={20}
+                height={20}
+                className="w-8 h-8"
+              />
+            </>
+          ),
+        },
+        {
+          name: "Spring boot",
+          icon: (
+            <>
+              <Image
+                src="/spring-boot.png"
+                alt="springboot"
+                width={20}
+                height={20}
+                className="w-8 h-8"
+              />
+            </>
+          ),
+        },
+        {
           name: "Express",
           icon: <IconServer className="text-neutral-800 dark:text-white" />,
         },
         { name: "Prisma", icon: <IconDatabase className="text-[#2D3748]" /> },
+        // { name: "Springboot", icon: <IconBrand className="text-[#2D3748]" /> },
       ],
     },
     {
@@ -122,9 +175,9 @@ function TechStack() {
             Technologies and tools I work with
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {techCategories.map((category, index) => (
-            <CardContainer key={index} className="w-full">
+            <CardContainer key={index} className="w-full py-0">
               <CardBody className="bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
