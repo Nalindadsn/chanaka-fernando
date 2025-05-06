@@ -3,26 +3,26 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { ThemeToggle } from "../ui/theme-toggle";
 
 const Footer = () => {
   const socialLinks = [
     {
       name: "Twitter",
-      href: "https://twitter.com/Shujaulislam09",
-      icon: <FaTwitter className="w-7 h-7" />,
+      href: "https://facebook.com/",
+      icon: <FaFacebook className="w-7 h-7" />,
       hoverColor: "hover:text-[#1DA1F2]",
     },
     {
       name: "GitHub",
-      href: "https://github.com/Shujaulislam",
+      href: "https://github.com/nalindadsn",
       icon: <FaGithub className="w-7 h-7" />,
       hoverColor: "hover:text-[#333] dark:hover:text-white",
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/shuja-ul-islam/",
+      href: "https://www.linkedin.com/",
       icon: <FaLinkedin className="w-7 h-7" />,
       hoverColor: "hover:text-[#0A66C2]",
     },
@@ -30,7 +30,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "Blog", href: "/blog" },
+    { name: "Blog", href: "https://stackprod.com" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
