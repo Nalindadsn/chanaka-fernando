@@ -133,9 +133,9 @@ function Hero() {
               Fullstack Developer, based in Sri Lanka
             </motion.h1>
             <motion.p
-              variants={container(0.8)}
-              initial="hidden"
-              whileInView={"show"}
+              // variants={container(0.8)}
+              // initial="hidden"
+              // whileInView={"show"}
               className="text-sm leading-6 opacity-70"
             >
               Self-motivated , adaptable, conscientious and enthusiastic person
@@ -143,9 +143,9 @@ function Hero() {
               developed through work in retail and group activities
             </motion.p>
             <motion.div
-              variants={container(1)}
-              initial="hidden"
-              whileInView={"show"}
+            // variants={container(1)}
+            // initial="hidden"
+            // whileInView={"show"}
             >
               <Link
                 href="/about"
