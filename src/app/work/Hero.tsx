@@ -169,7 +169,7 @@ function Hero() {
               </Link>
             </motion.div>
             <svg
-              className="w-[300px] h-[225px] absolute -bottom-8 right-0 opacity-60 "
+              className="w-[250px] h-[205px] absolute -bottom-8 right-0 opacity-60 "
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"
               width="300.000000pt"
