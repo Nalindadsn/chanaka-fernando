@@ -122,10 +122,10 @@ function TechStack() {
             Technologies and tools I work with
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
           {techCategories.map((category, index) => (
             <CardContainer key={index} className="w-full">
-              <CardBody className="bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto h-auto rounded-xl p-6 border">
+              <CardBody className="bg-white relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-6 border">
                 <CardItem
                   translateZ="50"
                   className="text-2xl font-bold text-neutral-800 dark:text-neutral-200"
