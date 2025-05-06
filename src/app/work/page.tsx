@@ -49,6 +49,7 @@ function page() {
           </div>
         </div>
       </section>
+      <div className="min-h-screen"></div>
     </div>
   );
 }

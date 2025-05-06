@@ -21,9 +21,16 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Nalinda Dissanayaka - Portfolio",
-  description:
-    "A modern blog platform built with Next.js, TypeScript, and Clerk",
-  keywords: ["blog", "next.js", "typescript", "clerk", "tailwindcss"],
+  description: "Full Stack Developer - Nalinda Dissanayaka - Portfolio",
+  keywords: [
+    "Nalinda Dissanayaka",
+    "web development",
+    "next.js",
+    "typescript",
+    "clerk",
+    "next-auth",
+    "tailwindcss",
+  ],
 };
 
 export default function RootLayout({
