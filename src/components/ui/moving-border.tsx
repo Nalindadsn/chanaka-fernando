@@ -82,7 +82,7 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef: any = useRef<any | null>("");
+  const pathRef: any = useRef<any | null>(null);
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
