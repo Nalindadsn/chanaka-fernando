@@ -16,9 +16,9 @@ export default function Home() {
 
   return (
     <>
-      <div className={styles.main}>
+      <div className={`${styles.main}`}>
         <div
-          className={`${styles.header} flex items-center gap-2 text-xl ${
+          className={`${styles.header}  flex items-center gap-2 text-xl ${
             isActive ? "text-white" : ""
           }`}
         >
