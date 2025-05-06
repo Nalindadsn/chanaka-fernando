@@ -38,7 +38,7 @@ function MoreWorks() {
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
               <div className="h-full py-4 px-6  rounded-br-xl">
                 <h3 className="text-2xl font-bold text-md mb-6">
-                  Mobile-Optimized Interface
+                  Gold Loan Project
                 </h3>
                 <p className="text-sm">
                   {" "}
@@ -55,10 +55,10 @@ function MoreWorks() {
                   24/7 Customer Support
                 </h3>
                 <p className="text-sm">
-                  ur U.S.-based customer support team is available around the
-                  clock to answer any questions, resolve any issues, and provide
-                  helpful solutions. Whether it's through email, phone, or live
-                  chat, we're always here to support you.
+                  Our customer support team is available around the clock to
+                  answer any questions, resolve any issues, and provide helpful
+                  solutions. Whether it's through email, phone, or live chat,
+                  we're always here to support you.
                 </p>
               </div>
             </div>
