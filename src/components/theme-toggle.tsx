@@ -20,7 +20,7 @@ export function ThemeToggle() {
       <DropdownMenuTrigger asChild>
         <Button
           size="icon"
-          className="relative h-[1.5rem] w-[1.5rem] border focus:outline-none"
+          className="relative h-[1.5rem] w-[1.5rem] border border-white text-white bg-black ring-offset-gray-500 focus:ring-offset-0 onfocus:ring-0"
         >
           <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
