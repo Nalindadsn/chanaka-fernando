@@ -57,16 +57,15 @@ function Hero() {
                     whileInView={"show"}
                   >
                     {" "}
-                    <Button
-                      type="button"
-                      data-twe-ripple-init
-                      data-twe-ripple-color="light"
+                    <Link
+                      href="https://stackprod.com"
+                      target="_blank"
                       className="mb-2 inline-block rounded-full bg-orange-600 p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                     >
                       <span className="[&>svg]:h-4 [&>svg]:w-4">
                         <FaDribbble className="text-2xl hover:scale-110 cursor-pointer transition-all duration-300" />
                       </span>
-                    </Button>
+                    </Link>
                   </motion.li>
                   <motion.li
                     variants={container(0.8)}
@@ -74,32 +73,30 @@ function Hero() {
                     whileInView={"show"}
                   >
                     {" "}
-                    <Button
-                      type="button"
-                      data-twe-ripple-init
-                      data-twe-ripple-color="light"
+                    <Link
+                      href="https://www.linkedin.com/in/nalindadsn"
+                      target="_blank"
                       className="mb-2 inline-block rounded-full bg-blue-800 p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                     >
                       <span className="[&>svg]:h-4 [&>svg]:w-4">
                         <FaLinkedin className="text-2xl hover:scale-110 cursor-pointer transition-all duration-300" />
                       </span>
-                    </Button>
+                    </Link>
                   </motion.li>
                   <motion.li
                     variants={container(1.0)}
                     initial="hidden"
                     whileInView={"show"}
                   >
-                    <Button
-                      type="button"
-                      data-twe-ripple-init
-                      data-twe-ripple-color="light"
+                    <Link
+                      href="https://www.facebook.com/nalinda.disanayaka.12"
+                      target="_blank"
                       className="z-100 mb-2 inline-block rounded-full bg-blue-600 p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                     >
                       <span className="[&>svg]:h-4 [&>svg]:w-4">
                         <FaFacebook className="text-2xl hover:scale-110 cursor-pointer transition-all duration-300" />
                       </span>
-                    </Button>
+                    </Link>
                   </motion.li>
                 </ul>
               </motion.div>

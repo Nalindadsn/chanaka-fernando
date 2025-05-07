@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";
 import MoreWorks from "./MoreWorks";
+import Gallery from "./Gallery";
 
 function page() {
   return (
@@ -54,6 +55,9 @@ function page() {
       <div className="min-h-screen">
         <MoreWorks />
       </div>
+      {/* <div className="container mx-auto py-8">
+        <Gallery />
+      </div> */}
       <div className="container mx-auto">
         <Suspense fallback={<p>Loading...</p>}>
           <Image
