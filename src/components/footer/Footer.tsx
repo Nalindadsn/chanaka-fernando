@@ -45,7 +45,7 @@ const Footer = () => {
               <Link
                 key={link.name}
                 href={link.href}
-                target={link.name === "Blog" ? "_self" : "_blank"}
+                target={link.name === "Blog" ? "" : "_blank"}
                 className="text-xl text-neutral-600 hover:text-neutral-900 dark:text-zinc-400 dark:hover:text-zinc-100 transition-colors relative group"
               >
                 {link.name}
