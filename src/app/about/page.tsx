@@ -28,28 +28,28 @@ function page() {
       icon: <IconBriefcase className="w-6 h-6" />,
     },
     {
-      year: "2017",
+      year: "2018",
       title: "First Professional Project",
       description:
         "Completed my first professional web development project using React and Node.js.",
       icon: <IconBriefcase className="w-6 h-6" />,
     },
     {
-      year: "2017",
+      year: "2019",
       title: "First Professional Project",
       description:
         "Completed my first professional web development project using React and Node.js.",
       icon: <IconBriefcase className="w-6 h-6" />,
     },
     {
-      year: "2017",
+      year: "2020",
       title: "First Professional Project",
       description:
         "Completed my first professional web development project using React and Node.js.",
       icon: <IconBriefcase className="w-6 h-6" />,
     },
     {
-      year: "2017",
+      year: "2021",
       title: "First Professional Project",
       description:
         "Completed my first professional web development project using React and Node.js.",
@@ -70,14 +70,14 @@ function page() {
       icon: <IconTrophy className="w-6 h-6" />,
     },
     {
-      year: "2023",
+      year: "2024",
       title: "Advanced Projects",
       description:
         "Led development of complex web applications. Focused on performance optimization and scalability.",
       icon: <IconTrophy className="w-6 h-6" />,
     },
     {
-      year: "2023",
+      year: "2025",
       title: "Advanced Projects",
       description:
         "Led development of complex web applications. Focused on performance optimization and scalability.",
