@@ -114,15 +114,7 @@ function MoreWorks() {
             </div>
 
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="h-full py-4 px-6  rounded-br-xl flex items-center justify-center">
-                <Link
-                  href="/work"
-                  className="text-gray-900 inline-flex items-center gap-2 items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center dark:text-white rounded-lg bg-primary-700 hover:text-orange-500 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
-                >
-                  More Works
-                  <ArrowRight />
-                </Link>
-              </div>
+              <div className="h-full py-4 px-6  rounded-br-xl flex items-center justify-center"></div>
             </div>
           </div>
         </div>

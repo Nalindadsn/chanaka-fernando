@@ -2,6 +2,7 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import MoreWorks from "./MoreWorks";
 
 function page() {
   return (
@@ -49,7 +50,9 @@ function page() {
           </div>
         </div>
       </section>
-      <div className="min-h-screen"></div>
+      <div className="min-h-screen">
+        <MoreWorks />
+      </div>
     </div>
   );
 }
