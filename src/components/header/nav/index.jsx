@@ -38,7 +38,7 @@ export default function index() {
       exit="exit"
       className={styles.menu}
     >
-      <div className={`${styles.body} overflow-y-scroll`}>
+      <div className={`${styles.body} overflow-y-auto`}>
         <div
           onMouseLeave={() => {
             setSelectedIndicator(pathname);
