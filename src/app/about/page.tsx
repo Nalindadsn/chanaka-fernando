@@ -22,39 +22,12 @@ function page() {
     },
     {
       year: "2017",
-      title: "First Professional Project",
+      title: "Completed First Application with Laravel",
       description:
-        "Completed my first professional web development project using React and Node.js.",
+        "Completed my first web development project using Laravel and MySQL.",
       icon: <IconBriefcase className="w-6 h-6" />,
     },
-    {
-      year: "2018",
-      title: "First Professional Project",
-      description:
-        "Completed my first professional web development project using React and Node.js.",
-      icon: <IconBriefcase className="w-6 h-6" />,
-    },
-    {
-      year: "2019",
-      title: "First Professional Project",
-      description:
-        "Completed my first professional web development project using React and Node.js.",
-      icon: <IconBriefcase className="w-6 h-6" />,
-    },
-    {
-      year: "2020",
-      title: "First Professional Project",
-      description:
-        "Completed my first professional web development project using React and Node.js.",
-      icon: <IconBriefcase className="w-6 h-6" />,
-    },
-    {
-      year: "2021",
-      title: "First Professional Project",
-      description:
-        "Completed my first professional web development project using React and Node.js.",
-      icon: <IconBriefcase className="w-6 h-6" />,
-    },
+
     {
       year: "2022",
       title: "Expanded Tech Stack",
@@ -64,16 +37,16 @@ function page() {
     },
     {
       year: "2023",
-      title: "Advanced Projects",
+      title: "Complated spring boot project",
       description:
-        "Led development of complex web applications. Focused on performance optimization and scalability.",
+        "Completed my first professional backend project using Spring Boot.",
       icon: <IconTrophy className="w-6 h-6" />,
     },
     {
       year: "2024",
-      title: "Advanced Projects",
+      title: "Cloud Services",
       description:
-        "Led development of complex web applications. Focused on performance optimization and scalability.",
+        "Implemented cloud-based solutions for efficient deployment and management.",
       icon: <IconTrophy className="w-6 h-6" />,
     },
     {
