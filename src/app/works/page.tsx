@@ -1,7 +1,7 @@
 import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { Suspense } from "react";
 import MoreWorks from "./MoreWorks";
 
 function page() {
@@ -53,6 +53,17 @@ function page() {
       </section>
       <div className="min-h-screen">
         <MoreWorks />
+      </div>
+      <div className="container mx-auto">
+        <Suspense fallback={<p>Loading...</p>}>
+          <Image
+            src="/my-w.png"
+            alt="img"
+            width={1000}
+            height={1000}
+            className="w-full max-w-[1000px] mx-auto"
+          />
+        </Suspense>
       </div>
     </div>
   );
