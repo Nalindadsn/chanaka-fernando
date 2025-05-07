@@ -28,11 +28,53 @@ function page() {
       icon: <IconBriefcase className="w-6 h-6" />,
     },
     {
+      year: "2017",
+      title: "First Professional Project",
+      description:
+        "Completed my first professional web development project using React and Node.js.",
+      icon: <IconBriefcase className="w-6 h-6" />,
+    },
+    {
+      year: "2017",
+      title: "First Professional Project",
+      description:
+        "Completed my first professional web development project using React and Node.js.",
+      icon: <IconBriefcase className="w-6 h-6" />,
+    },
+    {
+      year: "2017",
+      title: "First Professional Project",
+      description:
+        "Completed my first professional web development project using React and Node.js.",
+      icon: <IconBriefcase className="w-6 h-6" />,
+    },
+    {
+      year: "2017",
+      title: "First Professional Project",
+      description:
+        "Completed my first professional web development project using React and Node.js.",
+      icon: <IconBriefcase className="w-6 h-6" />,
+    },
+    {
       year: "2022",
       title: "Expanded Tech Stack",
       description:
         "Mastered Next.js, TypeScript, and modern web development practices. Started contributing to open source.",
       icon: <IconRocket className="w-6 h-6" />,
+    },
+    {
+      year: "2023",
+      title: "Advanced Projects",
+      description:
+        "Led development of complex web applications. Focused on performance optimization and scalability.",
+      icon: <IconTrophy className="w-6 h-6" />,
+    },
+    {
+      year: "2023",
+      title: "Advanced Projects",
+      description:
+        "Led development of complex web applications. Focused on performance optimization and scalability.",
+      icon: <IconTrophy className="w-6 h-6" />,
     },
     {
       year: "2023",
