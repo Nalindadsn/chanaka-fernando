@@ -41,15 +41,6 @@ function MoreWorks() {
                       <Link2 />
                     </Link>
                   </Button>
-                  <Button
-                    className="text-white bg-gray-800  border border-white border-2 shadow-lg"
-                    size={"sm"}
-                    asChild
-                  >
-                    <Link href="https://ezquizy.com/" target="_blank">
-                      See More
-                    </Link>
-                  </Button>
                 </div>
                 <div className="border border border-gray-800 shadow-lg p-2 rounded-xl border-5">
                   <Image
@@ -75,15 +66,6 @@ function MoreWorks() {
                   >
                     <Link href="https://gold2.vercel.app/" target="_blank">
                       <Link2 />
-                    </Link>
-                  </Button>
-                  <Button
-                    className="text-white bg-gray-800  border border-white border-2 shadow-lg"
-                    size={"sm"}
-                    asChild
-                  >
-                    <Link href="https://ezquizy.com/" target="_blank">
-                      See More
                     </Link>
                   </Button>
                 </div>

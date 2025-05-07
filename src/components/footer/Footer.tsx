@@ -87,9 +87,9 @@ const Footer = () => {
               </Link>
             ))}
             {/* Theme Toggle */}
-            <div className="border-l border-neutral-200 dark:border-neutral-800 pl-6">
+            {/* <div className="border-l border-neutral-200 dark:border-neutral-800 pl-6">
               <ThemeToggle />
-            </div>
+            </div> */}
           </div>
 
           {/* Copyright and Additional Info */}

@@ -41,7 +41,7 @@ function MoreWorks() {
                       <Link2 />
                     </Link>
                   </Button>
-                  <Button
+                  {/* <Button
                     className="text-white bg-gray-800  border border-white border-2 shadow-lg"
                     size={"sm"}
                     asChild
@@ -49,7 +49,7 @@ function MoreWorks() {
                     <Link href="https://ezquizy.com/" target="_blank">
                       See More
                     </Link>
-                  </Button>
+                  </Button> */}
                 </div>
                 <div className="border border border-gray-800 shadow-lg p-2 rounded-xl border-5">
                   <Image
@@ -77,7 +77,7 @@ function MoreWorks() {
                       <Link2 />
                     </Link>
                   </Button>
-                  <Button
+                  {/* <Button
                     className="text-white bg-gray-800  border border-white border-2 shadow-lg"
                     size={"sm"}
                     asChild
@@ -85,7 +85,7 @@ function MoreWorks() {
                     <Link href="https://ezquizy.com/" target="_blank">
                       See More
                     </Link>
-                  </Button>
+                  </Button> */}
                 </div>
                 <div className="border border border-gray-800 shadow-lg p-2 rounded-xl border-5">
                   <Image
@@ -100,16 +100,42 @@ function MoreWorks() {
             </div>
 
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="h-full py-4 px-6  rounded-br-xl">
-                <h3 className="text-sm font-bold text-md mb-6">
-                  24/7 Customer Support
+              <div className="relative h-full py-4 px-6  rounded-br-xl">
+                <h3 className="absolute top-2 left-4 text-sm font-bold text-md mb-6 bg-orange-500 px-2 py-1 text-white rounded-md">
+                  Kataragama Clay House
                 </h3>
-                <p className="text-sm">
-                  Our customer support team is available around the clock to
-                  answer any questions, resolve any issues, and provide helpful
-                  solutions. Whether it's through email, phone, or live chat,
-                  we're always here to support you.
-                </p>
+                <div className="flex gap-1 absolute bottom-8 right-10">
+                  <Button
+                    className="text-white bg-gray-800  border border-white border-2 shadow-lg"
+                    size={"sm"}
+                    asChild
+                  >
+                    <Link
+                      href="https://kataragamaclayhouse.com"
+                      target="_blank"
+                    >
+                      <Link2 />
+                    </Link>
+                  </Button>
+                  {/* <Button
+                    className="text-white bg-gray-800  border border-white border-2 shadow-lg"
+                    size={"sm"}
+                    asChild
+                  >
+                    <Link href="https://kataragamaclayhouse" target="_blank">
+                      See More
+                    </Link>
+                  </Button> */}
+                </div>
+                <div className="border border border-gray-800 shadow-lg p-2 rounded-xl border-5">
+                  <Image
+                    className="w-[400px] h-[200px] md:w-full mx-auto"
+                    src="/3-kataragamaclayhouse.png"
+                    alt="projects"
+                    width={400}
+                    height={200}
+                  />
+                </div>
               </div>
             </div>
 
