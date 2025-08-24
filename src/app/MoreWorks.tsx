@@ -30,16 +30,16 @@ function MoreWorks() {
 
           <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="relative h-full py-4 px-6  rounded-br-xl">
+              <div className="relative h-full   rounded-br-xl border border-yellow-800 bg-green-950 text-yellow-100">
                
-                <div className="flex gap-1 absolute bottom-8 right-10">
+                <div className="flex gap-1 absolute bottom-0 right-0 ">
                   <Button
                     className="hover:text-yellow-500"
                     size={"sm"}
                     asChild
                   >
                     <Link href="https://ezquizy.com/" target="_blank">
-                      <ArrowRight className="hover:text-yellow-500"/>
+                     see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>
                 </div>
@@ -61,7 +61,7 @@ function MoreWorks() {
                 <h3 className="absolute top-2 left-4 text-sm font-bold text-md mb-6 bg-green-500 px-2 py-1 text-white rounded-md">
                   Gold Mortgaging Project
                 </h3>
-                <div className="flex gap-1 absolute -bottom-10 right-1">
+                <div className="flex gap-1 absolute -bottom-0 right-1">
                   <Button
                     className="text-white bg-gray-800  border border-white border-2 shadow-lg"
                     size={"sm"}
