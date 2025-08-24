@@ -9,7 +9,8 @@ import {
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import { User } from "lucide-react";
+import { Star, User } from "lucide-react";
+import { IconStarFilled } from "@tabler/icons-react";
 
 type PropType = {
   slides: number[];
@@ -52,6 +53,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                   /> */}
                 </div>
                 <div className="text-sm font-semibold">
+                  <div className="flex w-full justify-center">
+                    <IconStarFilled className="text-yellow-400 w-4 h-4"/>
+                    <IconStarFilled className="text-yellow-400 w-4 h-4"/>
+                    <IconStarFilled className="text-yellow-400 w-4 h-4"/>
+                    <IconStarFilled className="text-yellow-400 w-4 h-4"/>
+                    <IconStarFilled className="text-yellow-400 w-4 h-4"/>
+                  </div>
                   <h2 className="text-2xl">Mr Bandara Dissanayaka.</h2>
                   <h2 className="text-sm ">Excecutive Chef</h2><hr/>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
