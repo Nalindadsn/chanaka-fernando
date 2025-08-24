@@ -30,7 +30,7 @@ function MoreWorks() {
 
           <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="relative h-full   rounded-br-xl border border-yellow-800 bg-green-950 text-yellow-100">
+              <div className="relative h-full   rounded-br-xl  bg-green-950 text-yellow-100">
                
                 <div className="flex gap-1 absolute bottom-0 right-0 ">
                   <Button
@@ -51,7 +51,7 @@ function MoreWorks() {
                     width={400}
                     height={200}
                   />
-                  
+                  <h3 className=" text-yellow-500   font-semibold">Heading </h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
