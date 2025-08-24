@@ -9,6 +9,7 @@ import {
 } from "./EmblaCarouselArrowButtons";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
+import { User } from "lucide-react";
 
 type PropType = {
   slides: number[];
@@ -37,16 +38,22 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             <div className="embla__slide" key={index}>
               <div className="embla__slide__number text-center">
                 <div className="">
-<div className="w-full flex justify-center ">
-                  <Image
+<div className="w-full flex justify-center">
+  <div className=" border-4 border-yellow-700 bg-yellow-600 rounded-full  p-6 mb-2">
+    <User className="h-12 w-12 text-black"/>
+  </div>
+  
+                  {/* <Image
                     src="/gold-medal.png"
                     alt="img"
                     width={192}
                     height={324}
                     className=" relative z-10 w-[80px] "
-                  />
+                  /> */}
                 </div>
                 <div className="text-sm font-semibold">
+                  <h2 className="text-2xl">Mr Bandara Dissanayaka.</h2>
+                  <h2 className="text-sm ">Excecutive Chef</h2>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus, adipisci molestiae ducimus fugiat omnis veritatis
                   quo, non dignissimos fugit dolor rem et! Culpa sunt facere

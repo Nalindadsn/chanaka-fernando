@@ -53,7 +53,7 @@ We are excited to announce that the World Association of Master Chefs Sri Lankan
         
       </div>
       <div className="overflow-hidden">
-        <div className="text-center mb-12">
+        <div className="text-center mb-5">
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400">
             Testimonials
           </h2>

@@ -30,7 +30,7 @@ const container = (delay: any) => ({
 });
 function Hero() {
   return (
-    <div className="bg-gradient-to-r from-green-800 to-black  text-white overflow-hidden relative">
+    <div className="bg-gradient-to-r from-green-950 to-black  text-white overflow-hidden relative">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 min-h-[600px] place-items-center">
           <div className="grid col-span-2 relative h-full justify-center items-center">
