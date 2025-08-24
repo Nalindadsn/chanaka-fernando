@@ -63,12 +63,7 @@ We are excited to announce that the World Association of Master Chefs Sri Lankan
         </div>
         <Emb />
       </div>
-      <div>
-        <Suspense fallback={<div>Loading...</div>}>
-          {" "}
-          <TechStack />
-        </Suspense>
-      </div>
+      
 
       <div>
         <MoreWorks />

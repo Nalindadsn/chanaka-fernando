@@ -53,7 +53,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                 </div>
                 <div className="text-sm font-semibold">
                   <h2 className="text-2xl">Mr Bandara Dissanayaka.</h2>
-                  <h2 className="text-sm ">Excecutive Chef</h2>
+                  <h2 className="text-sm ">Excecutive Chef</h2><hr/>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus, adipisci molestiae ducimus fugiat omnis veritatis
                   quo, non dignissimos fugit dolor rem et! Culpa sunt facere
