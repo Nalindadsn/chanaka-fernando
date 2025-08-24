@@ -20,10 +20,10 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Nalinda Dissanayaka - Portfolio",
-  description: "Full Stack Developer - Nalinda Dissanayaka - Portfolio",
+  title: "Chanaka Fernando - Portfolio",
+  description: "AMBASSADOR OF TASTE FOR THE GLOBAL GASTRONOMY - Chanaka Fernando - Portfolio",
   keywords: [
-    "Nalinda Dissanayaka",
+    "Chanaka Fernando",
     "web development",
     "next.js",
     "typescript",
@@ -44,7 +44,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background`}
       >
         <NextTopLoader
-          color="#2299DD"
+          color="#ff5e00ff"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}

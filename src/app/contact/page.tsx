@@ -91,14 +91,14 @@ const ContactPage = () => {
             <div className="right-0 absolute -bottom-10 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               <div className="absolute -bottom-0 -left-15 z-100">
                 {" "}
-                <span className="text-sm text-sm">Nalinda Dissanayaka</span>
+                <span className="text-sm text-sm">Chanaka Fernando</span>
                 <div className="bg-orange-500 px-2  whitespace-nowrap text-sm text-white rounded-full">
-                  Full Stack Developer
+                  AMBASSADOR OF TASTE FOR THE GLOBAL GASTRONOMY
                 </div>
               </div>
 
               <Image
-                src="/nalinda-dissanayaka.png"
+                src="/chanaka-fernando1.png"
                 alt="img"
                 width={200}
                 height={200}

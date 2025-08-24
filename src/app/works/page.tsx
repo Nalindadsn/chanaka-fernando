@@ -8,7 +8,7 @@ import Gallery from "./Gallery";
 function page() {
   return (
     <div>
-      <section className="bg-gray-900 text-white relative pt-14 overflow-x-hidden">
+      <section className="bg-gradient-to-r from-red-600 to-orange-500 text-white relative pt-14 overflow-x-hidden">
         <div className="grid max-w-screen-xl px-4 pt-0 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -35,18 +35,18 @@ function page() {
             <div className="right-0 absolute -bottom-10 max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               <div className="absolute -bottom-0 -left-15 z-100">
                 {" "}
-                <span className="text-sm text-sm">Nalinda Dissanayaka</span>
-                <div className="bg-orange-500 px-2  whitespace-nowrap text-sm text-white rounded-full">
-                  Full Stack Developer
+                <span className="text-sm text-sm">Chanaka Fernando</span>
+                <div className="bg-black px-2  whitespace-nowrap text-sm text-white rounded-full">
+                  AMBASSADOR OF TASTE <br/>FOR THE GLOBAL GASTRONOMY
                 </div>
               </div>
 
               <Image
-                src="/nalinda-dissanayaka.png"
+                src="/chanaka-fernando-header.png"
                 alt="img"
-                width={200}
-                height={200}
-                className="scale-110 relative z-10 w-[200px] "
+                width={410}
+                height={609}
+                className="scale-110 relative z-10 w-[200px] bg-gradient-to-r from-transparent  to-orange-500"
               />
             </div>
           </div>

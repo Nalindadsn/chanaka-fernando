@@ -9,11 +9,12 @@
         width: 80px;
         height: 80px;
         border-radius: 50%;
-        background-color: rgba(69,92,233,.8);
+        background-color: rgb(0, 0, 0);
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 3px solid white;
         
     }
    
