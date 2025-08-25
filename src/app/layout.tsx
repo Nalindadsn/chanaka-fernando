@@ -25,7 +25,13 @@ export const metadata: Metadata = {
   keywords: [
     "Chanaka Fernando",
     "Chanaka Fernando Portfolio",
+    "VISIONARY CHEF",
     "AMBASSADOR",
+    "MOTIVATOR",
+    "CONSULTANT",
+    "MENTOR",
+    "UK Entrepreneur",
+    "THE GLOBAL GASTRONOMY",
     "Excecutive Chef",
     "Chef",
     "Businessman",
