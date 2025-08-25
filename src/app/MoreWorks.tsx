@@ -51,7 +51,7 @@ function MoreWorks() {
                     width={400}
                     height={200}
                   />
-                  <h3 className=" text-neutral-950   font-semibold">Sri  </h3>
+                  <h3 className=" text-neutral-950   font-semibold">Sri Lankan Capture </h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
