@@ -24,12 +24,11 @@ export const metadata: Metadata = {
   description: "AMBASSADOR OF TASTE FOR THE GLOBAL GASTRONOMY - Chanaka Fernando - Portfolio",
   keywords: [
     "Chanaka Fernando",
-    "web development",
-    "next.js",
-    "typescript",
-    "clerk",
-    "next-auth",
-    "tailwindcss",
+    "Chanaka Fernando Portfolio",
+    "AMBASSADOR",
+    "Excecutive Chef",
+    "Chef",
+    "Businessman",
   ],
 };
 
