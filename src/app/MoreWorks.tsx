@@ -38,7 +38,7 @@ function MoreWorks() {
                     size={"sm"}
                     asChild
                   >
-                    <Link href="/posts/sri-lankan-capture" target="_blank">
+                    <Link href="/posts/sri-lankan-capture">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>
@@ -65,7 +65,7 @@ function MoreWorks() {
                     size={"sm"}
                     asChild
                   >
-                    <Link href="https://ezquizy.com/" target="_blank">
+                    <Link href="https://ezquizy.com/">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>
