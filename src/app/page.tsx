@@ -9,6 +9,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import EmblaCarousel from "@/components/testimonials/js/EmblaCarousel";
 import Emb from "@/components/testimonials/js";
+import Products from "./Products";
 
 function page() {
   return (
@@ -67,6 +68,9 @@ We are excited to announce that the World Association of Master Chefs Sri Lankan
 
       <div>
         <MoreWorks />
+      </div>
+      <div>
+        <Products />
       </div>
     </div>
   );

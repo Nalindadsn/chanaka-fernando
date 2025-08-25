@@ -43,7 +43,7 @@ function MoreWorks() {
                     </Link>
                   </Button>
                 </div>
-                <div className=" shadow-lg p-2 rounded-xl ">
+                <div className=" p-2 rounded-xl mb-5">
                   <Image
                     className="w-[400px] h-[200px] md:w-full mx-auto"
                     src="/post1.jpeg"
@@ -51,7 +51,7 @@ function MoreWorks() {
                     width={400}
                     height={200}
                   />
-                  <h3 className=" text-neutral-950   font-semibold">Heading </h3>
+                  <h3 className=" text-neutral-950   font-semibold">Sri  </h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
@@ -93,8 +93,7 @@ function MoreWorks() {
                 <p className="text-sm">
                   Our customer support team is available around the clock to
                   answer any questions, resolve any issues, and provide helpful
-                  solutions. Whether it's through email, phone, or live chat,
-                  we're always here to support you.
+                  solutions. 
                 </p>
               </div>
             </div>
