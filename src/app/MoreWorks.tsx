@@ -20,7 +20,7 @@ function MoreWorks() {
         <div className="flex flex-col md:flex-row">
           <div className="mr-0 md:mr-8 mb-6 md:mb-0">
             <Image
-              className="w-[400px] h-[400px] md:w-full mx-auto"
+              className="w-[400px]  md:w-full mx-auto"
               src="/c.png"
               alt="projects"
               width={431}
