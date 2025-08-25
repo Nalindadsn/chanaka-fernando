@@ -38,7 +38,7 @@ function MoreWorks() {
                     size={"sm"}
                     asChild
                   >
-                    <Link href="https://ezquizy.com/" target="_blank">
+                    <Link href="/posts/sri-lankan-capture" target="_blank">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>

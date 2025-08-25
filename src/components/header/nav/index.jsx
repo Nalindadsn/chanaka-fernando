@@ -18,7 +18,7 @@ const navItems = [
   },
   {
     title: "Gallery",
-    href: "/Gallery",
+    href: "/gallery",
   },
   {
     title: "Contact",
