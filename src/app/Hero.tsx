@@ -51,7 +51,7 @@ function Hero() {
               ></motion.div>
               <motion.div className="mt-24 relative z-20">
                 <ul className="flex gap-1 sm:gap-6">
-                  <motion.li
+                  {/* <motion.li
                     variants={container(0.6)}
                     initial="hidden"
                     whileInView={"show"}
@@ -66,7 +66,7 @@ function Hero() {
                         <FaDribbble className="text-2xl hover:scale-110 cursor-pointer transition-all duration-300" />
                       </span>
                     </Link>
-                  </motion.li>
+                  </motion.li> */}
                   <motion.li
                     variants={container(0.8)}
                     initial="hidden"
@@ -74,7 +74,7 @@ function Hero() {
                   >
                     {" "}
                     <Link
-                      href="https://www.linkedin.com/in/nalindadsn"
+                      href="https://www.linkedin.com/in/chanakafernando"
                       target="_blank"
                       className="mb-2 inline-block rounded-full bg-blue-800 p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                     >
@@ -89,7 +89,7 @@ function Hero() {
                     whileInView={"show"}
                   >
                     <Link
-                      href="https://www.facebook.com/nalinda.disanayaka.12"
+                      href="https://web.facebook.com/chanaka.fernando.5011"
                       target="_blank"
                       className="z-100 mb-2 inline-block rounded-full bg-blue-600 p-3 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
                     >

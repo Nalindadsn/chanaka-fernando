@@ -7,23 +7,23 @@ export default function index() {
     <div className="mt-5 text-center">
       <div className={`${styles.footer} `}>
         <Link
-          href="https://www.linkedin.com/in/nalindadsn"
+          href="https://www.linkedin.com/in/chanakafernando"
           target="_blank"
           className="flex gap-1 items-center"
         >
           <FaLinkedin />
           LinkedIn
         </Link>
-        <Link
+        {/* <Link
           href="https://github.com/Nalindadsn"
           target="_blank"
           className="flex gap-1 items-center"
         >
           <FaGithub />
           Github
-        </Link>
+        </Link> */}
         <Link
-          href="https://www.facebook.com/nalinda.disanayaka.12"
+          href="https://web.facebook.com/chanaka.fernando.5011"
           className="flex gap-1 items-center"
           target="_blank"
         >

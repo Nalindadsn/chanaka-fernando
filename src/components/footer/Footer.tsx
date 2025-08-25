@@ -10,19 +10,19 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Twitter",
-      href: "https://www.facebook.com/nalinda.disanayaka.12",
+      href: "https://web.facebook.com/chanaka.fernando.5011",
       icon: <FaFacebook className="w-7 h-7" />,
       hoverColor: "hover:text-[#1DA1F2]",
     },
-    {
-      name: "GitHub",
-      href: "https://github.com/Nalindadsn",
-      icon: <FaGithub className="w-7 h-7" />,
-      hoverColor: "hover:text-[#333] dark:hover:text-white",
-    },
+    // {
+    //   name: "GitHub",
+    //   href: "https://github.com/Nalindadsn",
+    //   icon: <FaGithub className="w-7 h-7" />,
+    //   hoverColor: "hover:text-[#333] dark:hover:text-white",
+    // },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/nalindadsn",
+      href: "https://www.linkedin.com/in/chanakafernando",
       icon: <FaLinkedin className="w-7 h-7" />,
       hoverColor: "hover:text-[#0A66C2]",
     },
