@@ -1,6 +1,6 @@
 import React from 'react'
 
-async function page({params}:{params:{slug:string}}) {
+async function page({params}:any) {
   const posts=[
     {
       slug:"sri-lankan-capture",
