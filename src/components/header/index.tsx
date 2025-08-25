@@ -49,7 +49,7 @@ export default function Home() {
           <div className="flex justify-center">
             <>
               <motion.span
-                className="w-4 h-4 my-12 mx-1 bg-blue-500 rounded-full"
+                className="w-4 h-4 my-12 mx-1 bg-green-500 rounded-full"
                 animate={{
                   y: [0, -20, 0],
                   opacity: [1, 0], // Fades out
@@ -57,7 +57,7 @@ export default function Home() {
                 }}
               />
               <motion.span
-                className="w-4 h-4 my-12 mx-1 bg-blue-500 rounded-full"
+                className="w-4 h-4 my-12 mx-1 bg-green-500 rounded-full"
                 animate={{
                   y: [0, -20, 0],
                   opacity: [1, 0], // Fades out
@@ -65,7 +65,7 @@ export default function Home() {
                 }}
               />
               <motion.span
-                className="w-4 h-4 my-12 mx-1 bg-blue-500 rounded-full"
+                className="w-4 h-4 my-12 mx-1 bg-green-500 rounded-full"
                 animate={{
                   y: [0, -20, 0],
                   opacity: [1, 0], // Fades out

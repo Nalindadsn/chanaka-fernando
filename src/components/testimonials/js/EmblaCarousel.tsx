@@ -40,9 +40,19 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               <div className="embla__slide__number text-center">
                 <div className="">
 <div className="w-full flex justify-center">
-  <div className=" border-4 border-yellow-700 bg-yellow-600 rounded-full  p-6 mb-2">
+  {
+    index===0 ?
+    <Image
+                    src="/testiminial1.jpg"
+                    alt="img"
+                    width={100}
+                    height={100}
+                    className=" relative z-10 w-[80px]  h-[80px] rounded-full border-4 border-white shadow-lg mb-3"
+                  />:<div className=" border-4 border-yellow-700 bg-white rounded-full  p-3 mb-2">
     <User className="h-12 w-12 text-black"/>
   </div>
+  }
+  
   
                   {/* <Image
                     src="/gold-medal.png"
@@ -52,7 +62,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     className=" relative z-10 w-[80px] "
                   /> */}
                 </div>
-                <div className="text-sm font-semibold">
+                <div className="text-sm font-normal  text-neutral-800 dark:text-neutral-300 ">
                   <div className="flex w-full justify-center">
                     <IconStarFilled className="text-yellow-400 w-4 h-4"/>
                     <IconStarFilled className="text-yellow-400 w-4 h-4"/>
@@ -61,7 +71,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     <IconStarFilled className="text-yellow-400 w-4 h-4"/>
                   </div>
                   <h2 className="text-2xl">Mr Bandara Dissanayaka.</h2>
-                  <h2 className="text-sm ">Excecutive Chef</h2><hr/>
+                  <h2 className="text-sm underline ">Excecutive Chef</h2>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Accusamus, adipisci molestiae ducimus fugiat omnis veritatis
                   quo, non dignissimos fugit dolor rem et! Culpa sunt facere

@@ -82,7 +82,7 @@ function page() {
                   Excecutive Chef
                 </div>
               </div>
-              <div className="absolute bottom-20 -right-25 z-100 text-3xl font-bold text-yellow-100 text-shadow-lg bg-green-950 px-5 rounded-full">
+              <div className="absolute bottom-20 -right-25 z-100 text-2xl font-semibold text-white text-shadow-lg bg-neutral-950 px-5 py-1 rounded-full">
                 Who Am I
                 </div>
               <Image

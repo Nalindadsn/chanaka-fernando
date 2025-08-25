@@ -42,7 +42,12 @@
     }
 
     .burgerActive{
+        
 
+        &::after, &::before{
+            content: "";
+            background-color: red;
+        }
         &::after{
             transform: rotate(45deg);
             top: -1px;
