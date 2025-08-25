@@ -70,9 +70,9 @@ function Qualities() {
                   <h3 className="text-xl font-semibold text-green-800 dark:text-neutral-200 mb-2">
                     {item.title=="2"?"img":item.title}
                   </h3>
-                  <p className="text-neutral-800 dark:text-neutral-400">
+                  <div className="text-neutral-800 dark:text-neutral-400">
                     {item.description}
-                  </p>
+                  </div>
                 </div>
               </div></CardGlow>}
             

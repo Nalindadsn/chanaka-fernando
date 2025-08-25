@@ -65,7 +65,7 @@ const ContactPage = () => {
 
   return (
     <main className="min-h-screen bg-white dark:bg-black/[0.96] antialiased bg-grid-black/[0.02] dark:bg-grid-white/[0.02]">
-      <PageHeader/>
+      <PageHeader page="Contact"/>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
         {/* Header Section */}
         <div className="text-center mb-20">

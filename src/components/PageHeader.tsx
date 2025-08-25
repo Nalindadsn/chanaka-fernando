@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function PageHeader() {
+function PageHeader({page}:{page:string}) {
   return (
     <section className=" bg-neutral-950 text-white  overflow-hidden">
             <div className="flex w-full justify-center mt-10 mb-10">
@@ -29,7 +29,7 @@ function PageHeader() {
                     </div>
                   </div>
                   <div className="absolute bottom-20 -right-25 z-100 text-2xl font-semibold text-white text-shadow-lg bg-neutral-950 px-5 py-1 rounded-full">
-                    Who Am I
+                    {page}
                     </div>
                   <Image
                     src="/chanaka-fernando.png"

@@ -61,7 +61,7 @@ function page() {
   return (
     <div>
       
-      <PageHeader/>
+      <PageHeader page="Who Am I"/>
       {/* Journey Section */}
       <section className="relative px-4 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto">
