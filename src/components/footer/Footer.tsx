@@ -30,7 +30,7 @@ const Footer = () => {
 
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "Blog", href: "https://stackprod.com" },
+    { name: "Posts", href: "/posts" },
     { name: "About", href: "/about" },
     { name: "Contact", href: "/contact" },
   ];
