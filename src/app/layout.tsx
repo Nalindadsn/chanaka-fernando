@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     "Chef",
     "Businessman",
   ],
+  openGraph: {
+        images: "/chanaka-fernando1.png",
+  }
 };
 
 export default function RootLayout({
