@@ -60,7 +60,7 @@ function page() {
   return (
     <div>
       
-      <section className="bg-green-950 text-white  overflow-hidden">
+      <section className=" bg-neutral-950 text-white  overflow-hidden">
         <div className="flex w-full justify-center mt-10 mb-10">
         <div className="">
             <div className=" max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -77,8 +77,8 @@ function page() {
                 <ArrowLeft />
                 Home
               </Link><br/>
-                <span className="text-sm text-sm text-white text-shadow-lg">Chanaka Fernando</span>
-                <div className="bg-yellow-600 px-2  whitespace-nowrap text-sm text-white rounded-full">
+                <span className="text-sm text-sm text-white text-shadow-lg bg-neutral-950 px-5 py-1 rounded-full ">Chanaka Fernando</span>
+                <div className="bg-yellow-600 px-2  whitespace-nowrap text-sm text-white rounded-full mt-1">
                   Excecutive Chef
                 </div>
               </div>
@@ -110,7 +110,7 @@ function page() {
             </h2>
 
             {/* <TracingBeam className="px-6"> */}
-            <div className="max-w-2xl mx-auto ml-8">
+            <div className="">
               {/* <Timeline items={journey} /> */}
               <h2 className="text-2xl  font-semibold mb-5 text-yellow-100">
                 {" "}
