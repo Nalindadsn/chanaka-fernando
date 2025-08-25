@@ -30,7 +30,7 @@ function MoreWorks() {
 
           <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="relative h-full   rounded-br-xl  bg-green-950 text-yellow-100">
+              <div className="relative h-full   rounded-br-xl  bg-yellow-600 text-yellow-100">
                
                 <div className="flex gap-1 absolute bottom-0 right-0 ">
                   <Button
@@ -46,43 +46,44 @@ function MoreWorks() {
                 <div className=" shadow-lg p-2 rounded-xl ">
                   <Image
                     className="w-[400px] h-[200px] md:w-full mx-auto"
-                    src="/1-ezquizy.png"
+                    src="/post1.jpeg"
                     alt="projects"
                     width={400}
                     height={200}
                   />
-                  <h3 className=" text-yellow-500   font-semibold">Heading </h3>
+                  <h3 className=" text-neutral-950   font-semibold">Heading </h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
             </div>
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
-              <div className="relative h-full py-4 px-6  rounded-br-xl">
-                <h3 className="absolute top-2 left-4 text-sm font-bold text-md mb-6 bg-green-500 px-2 py-1 text-white rounded-md">
-                  Gold Mortgaging Project
-                </h3>
-                <div className="flex gap-1 absolute -bottom-0 right-1">
+              <div className="relative h-full   rounded-br-xl  bg-yellow-600 text-yellow-100">
+               
+                <div className="flex gap-1 absolute bottom-0 right-0 ">
                   <Button
-                    className="text-white bg-gray-800  border border-white border-2 shadow-lg"
+                    className="hover:text-yellow-500"
                     size={"sm"}
                     asChild
                   >
-                    <Link href="https://gold2.vercel.app/" target="_blank">
-                      <ArrowRight />
+                    <Link href="https://ezquizy.com/" target="_blank">
+                     see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>
                 </div>
-                <div className="border border border-gray-800 shadow-lg p-2 rounded-xl border-5">
+                <div className=" shadow-lg p-2 rounded-xl ">
                   <Image
                     className="w-[400px] h-[200px] md:w-full mx-auto"
-                    src="/2-gold.png"
+                    src="/post2.jpeg"
                     alt="projects"
                     width={400}
                     height={200}
                   />
+                  <h3 className=" text-neutral-950   font-semibold">Heading </h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
               </div>
             </div>
+           
 
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
               <div className="h-full py-4 px-6  rounded-br-xl">
@@ -104,7 +105,7 @@ function MoreWorks() {
                   href="/works"
                   className="text-gray-900 inline-flex items-center gap-2 items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center dark:text-white rounded-lg bg-primary-700 hover:text-green-500 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
                 >
-                  More Works
+                  More Posts
                   <ArrowRight />
                 </Link>
               </div>
