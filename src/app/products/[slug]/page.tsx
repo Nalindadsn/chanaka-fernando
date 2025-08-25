@@ -3,11 +3,12 @@ import PageHeader from '@/components/PageHeader'
 import React from 'react'
 
 async function page({params}:any) {
+  const slug=(await params)?.slug
   return (
     <div >
-      <PageHeader page="Products" />    <div className='text-center'>
+      <PageHeader page={slug} />    <div className='text-center'>
 
-      {(await params)?.slug}</div>
+      {slug}</div>
     </div>
   )
 }
