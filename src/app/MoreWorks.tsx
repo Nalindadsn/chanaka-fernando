@@ -65,7 +65,7 @@ function MoreWorks() {
                     size={"sm"}
                     asChild
                   >
-                    <Link href="https://ezquizy.com/">
+                    <Link href="/posts">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                   </Button>

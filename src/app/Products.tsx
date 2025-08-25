@@ -24,7 +24,7 @@ function Products() {
     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
       <div className=" bg-gradient-to-r from-green-800 to-green-950 text-yellow-600  shadow-sm ">
         <div className="h-56 w-full">
-          <a href="#">
+          <Link href="/products/3flavors-tea">
             <Image
               className="h-full w-full  object-cover"
               src="/products/products-1.jpeg"
@@ -32,12 +32,12 @@ function Products() {
               width={400}
               height={400}
             />
-          </a>
+          </Link>
         </div>
         <div className="p-3">
           
 
-          <Link href="#" className="text-lg font-semibold leading-tight hover:underline ">
+          <Link href="/products/3flavors-tea" className="text-lg font-semibold leading-tight hover:underline ">
           3Flavor Tea
           </Link>
 
@@ -50,7 +50,9 @@ function Products() {
       
     </div>
     <div className="w-full text-center">
-      <button type="button" className="rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700">Show more</button>
+      <Link href={`/products`} className="rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700">
+        Show more
+      </Link >
     </div>
   </div>
   

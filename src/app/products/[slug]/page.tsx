@@ -1,8 +1,14 @@
+// import Products from '@/app/Products'
+import PageHeader from '@/components/PageHeader'
 import React from 'react'
 
-function page() {
+async function page({params}:any) {
   return (
-    <div>page</div>
+    <div >
+      <PageHeader page="Products" />    <div className='text-center'>
+
+      {(await params)?.slug}</div>
+    </div>
   )
 }
 
