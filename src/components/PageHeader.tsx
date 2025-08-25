@@ -1,10 +1,10 @@
 "use client";
-import { ArrowLeft } from 'lucide-react'
+import { ArrowLeft, Phone } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function PageHeader({page}:{page:string}) {
+function PageHeader({page,icon}:{page:string,icon?:React.ReactNode}) {
   return (
     <section className=" bg-neutral-950 text-white  overflow-hidden">
             <div className="flex w-full justify-center mt-10 mb-10">
@@ -28,8 +28,8 @@ function PageHeader({page}:{page:string}) {
                       Excecutive Chef
                     </div>
                   </div>
-                  <div className="absolute bottom-20 -right-25 z-100 text-2xl font-semibold text-white text-shadow-lg bg-neutral-950 px-5 py-1 rounded-full">
-                    {page}
+                  <div className="flex items-center gap-2 absolute bottom-20 -right-25 z-100 text-2xl font-semibold text-white text-shadow-lg bg-neutral-950 px-5 py-1 rounded-full">
+                   {icon} {page}
                     </div>
                   <Image
                     src="/chanaka-fernando.png"

@@ -6,7 +6,7 @@ import { IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
 import ContactForm from "@/components/form/contact-form";
 import WorldMap from "@/components/ui/world-map";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Phone } from "lucide-react";
 import Image from "next/image";
 import PageHeader from "@/components/PageHeader";
 
@@ -65,7 +65,7 @@ const ContactPage = () => {
 
   return (
     <main className="min-h-screen bg-white dark:bg-black/[0.96] antialiased bg-grid-black/[0.02] dark:bg-grid-white/[0.02]">
-      <PageHeader page="Contact"/>
+      <PageHeader page="Contact" icon={<Phone className='w-4 h-4 text-yellow-600'/>}/>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24">
         {/* Header Section */}
         <div className="text-center mb-20">

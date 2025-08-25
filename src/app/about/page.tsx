@@ -7,7 +7,7 @@ import {
   IconSchool,
   IconTrophy,
 } from "@tabler/icons-react";
-import { ArrowBigLeft, ArrowLeft } from "lucide-react";
+import { ArrowBigLeft, ArrowLeft, Info } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -61,7 +61,7 @@ function page() {
   return (
     <div>
       
-      <PageHeader page="Who Am I"/>
+      <PageHeader page="Who Am I" icon={<Info className='w-4 h-4 text-yellow-600'/>}/>
       {/* Journey Section */}
       <section className="relative px-4 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto">
