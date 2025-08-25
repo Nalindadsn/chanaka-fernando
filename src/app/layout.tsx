@@ -44,7 +44,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-background`}
       >
         <NextTopLoader
-          color="#ff5e00ff"
+          color="#ffd900ff"
           initialPosition={0.08}
           crawlSpeed={200}
           height={3}
