@@ -29,7 +29,7 @@ export function ThemeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent
         align="end"
-        className="bg-white dark:bg-gray-900 dark:border-gray-800 "
+        className="bg-white dark:bg-gray-900 dark:border-gray-800 z-[10000]"
       >
         <DropdownMenuItem onClick={() => setTheme("light")}>
           Light
