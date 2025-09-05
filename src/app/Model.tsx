@@ -17,27 +17,25 @@ export function FoodMenu() {
       <DialogTrigger asChild>
         <Button variant="outline">MENU</Button>
       </DialogTrigger>
-      <DialogContent className="w-screen h-screen overflow-y-auto">
+      <DialogContent className="w-full h-screen overflow-y-auto m-0 p-0">
         <DialogHeader>
           <DialogTitle>Our Menu</DialogTitle>
-          <DialogDescription>
-            <ul id="fud" className="">
-              <div className="clearfix"></div>
-              <li className="" data-catid="8">
+          <div className="">
+            <ul  className="p-3">
+              <li className="" >
                 <div className="">
-                  <div className=" flex">
-                    <div>
+                  <div className=" flex items-center gap-3">
                       <Image
-                        className="w-full"
+                        className="w-[100px] h-[100px]"
                         src="/breakfast.png"
                         alt=""
                         width={200}
                         height={200}
                       />
-                    </div>
                     <div>
-                      <h4 className="p-2 text-yellow-500 ">Breakfast</h4>
                       <div>
+                                              <h4 className=" text-yellow-500 ">Breakfast</h4>
+
                         <p>
                           Whether it{`'`}s night-time or a day flight, your client
                           needs to feel energised and fulfilled when they step
@@ -2176,7 +2174,7 @@ export function FoodMenu() {
               <div className="clearfix"></div>
               <div className="clearfix"></div>
             </ul>
-          </DialogDescription>
+          </div>
         </DialogHeader>
         <div className="grid gap-4"></div>
         <DialogFooter>
