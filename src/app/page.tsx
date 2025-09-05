@@ -77,13 +77,13 @@ function page() {
               className=" relative z-10 md:w-[400px] w-[300px]  max-w-[400px] shadow mr-5"
             />
           </div>
-          <div className="m-5 p-8 rounded-tr-3xl  border-yellow-600 order-first">
+          <div className=" p-2 md:p-8 rounded-tr-3xl  border-yellow-600 order-first">
             <CardGlow>
               <div className="absolute right-0 -top-7">
                 <GiJetFighter className="w-16 h-16 text-yellow-500" />
               </div>
               <div className="p-5">
-                <p className="mb-3  text-6xl text-yellow-600 font-bold flex">
+                <p className="mb-3  text-4xl sm:text-6xl text-yellow-600 font-bold flex">
                   <MdFastfood />
                   3Flavours Jet Catering
                 </p>
