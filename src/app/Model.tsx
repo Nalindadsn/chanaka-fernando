@@ -19,7 +19,11 @@ export function FoodMenu() {
       </DialogTrigger>
       <DialogContent className="w-full h-screen overflow-y-auto m-0 p-0">
         <DialogHeader>
-          <DialogTitle>Our Menu</DialogTitle>
+          <DialogTitle className="p-5">
+            <DialogClose asChild>
+            <Button variant="outline" size={"sm"} className="mr-2 md:hidden block">x</Button>
+          </DialogClose>
+          Our Menu</DialogTitle>
           <div className="">
             <ul  className="p-3">
               <li className="" >
@@ -2181,7 +2185,6 @@ export function FoodMenu() {
           <DialogClose asChild>
             <Button variant="outline">Cancel</Button>
           </DialogClose>
-          <Button type="submit">Save changes</Button>
         </DialogFooter>
       </DialogContent>
     </Dialog>
