@@ -6,7 +6,7 @@ import React from "react";
 
 function Products() {
   return (
-    <div className="bg-white dark:bg-black text-gray-900 dark:text-gray-100">
+    <div className=" text-gray-900 dark:text-gray-100">
       <div className="container mx-auto py-8 px-4 lg:py-16 lg:px-6">
         <div className="text-center mb-5">
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400">

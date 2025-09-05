@@ -6,7 +6,7 @@ import TechStack from "./TechStack";
 import MoreWorks from "./MoreWorks";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import EmblaCarousel from "@/components/testimonials/js/EmblaCarousel";
 import Emb from "@/components/testimonials/js";
 import Products from "./Products";
@@ -135,6 +135,13 @@ function page() {
       </div>
       <div>
         <Products />
+      </div>
+      <div className="mt-20 bg-green-950">
+
+      <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 flex gap-5">
+        <Phone/>
+Contact me
+      </div>
       </div>
     </div>
   );
