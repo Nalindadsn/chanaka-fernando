@@ -33,16 +33,11 @@ function MoreWorks() {
               <div className="relative h-full   rounded-br-xl  bg-yellow-600 text-yellow-100">
                
                 <div className="flex gap-1 absolute bottom-0 right-0 ">
-                  <Button
-                    className="hover:text-yellow-500"
-                    size={"sm"}
-                    asChild
-                  >
-                    <Link href="/posts/sri-lankan-capture">
+                  
+                    <Link href="/posts/sri-lankan-capture" className="flex gap-2 mb-2 mr-2">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
-                  </Button>
-                </div>
+                   </div>
                 <div className=" p-2 rounded-xl mb-5">
                   <Image
                     className="w-[400px] h-[200px] md:w-full mx-auto"
@@ -52,7 +47,7 @@ function MoreWorks() {
                     height={200}
                   />
                   <h3 className=" text-neutral-950   font-semibold">Sri Lankan Capture </h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  World Association of Master Chefs where passion meets innovation in the world of culinary arts.
                 </div>
               </div>
             </div>
@@ -60,29 +55,25 @@ function MoreWorks() {
               <div className="relative h-full   rounded-br-xl  bg-yellow-600 text-yellow-100">
                
                 <div className="flex gap-1 absolute bottom-0 right-0 ">
-                  <Button
-                    className="hover:text-yellow-500"
-                    size={"sm"}
-                    asChild
-                  >
-                    <Link href="/posts">
+                  
+                    <Link href="/posts/sri-lankan-capture" className="flex gap-2 mb-2 mr-2">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
-                  </Button>
                 </div>
-                <div className=" shadow-lg p-2 rounded-xl ">
+                <div className=" p-2 rounded-xl mb-5">
                   <Image
                     className="w-[400px] h-[200px] md:w-full mx-auto"
-                    src="/post2.jpeg"
+                    src="/jet-catering.jpg"
                     alt="projects"
                     width={400}
                     height={200}
                   />
-                  <h3 className=" text-neutral-950   font-semibold">Heading </h3>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <h3 className=" text-neutral-950   font-semibold">3Flavours Jet Catering </h3>
+                  When your clients are flying at 30,000 feet, they’ll want a personalised level of ...
                 </div>
               </div>
             </div>
+            
            
 
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
