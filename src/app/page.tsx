@@ -6,7 +6,7 @@ import TechStack from "./TechStack";
 import MoreWorks from "./MoreWorks";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Phone } from "lucide-react";
+import { ArrowRight, Dot, Phone } from "lucide-react";
 import EmblaCarousel from "@/components/testimonials/js/EmblaCarousel";
 import Emb from "@/components/testimonials/js";
 import Products from "./Products";
@@ -152,7 +152,7 @@ function page() {
             <ul>
               <li></li>
             </ul>
-            <li>Personal chef for several private jet companies </li>
+            <li><Dot/> Personal chef for several private jet companies </li>
             <li>Ambassador for Ambassadors of Taste for the Global Gastronomy </li>
             <li>Member of The Chef’s Forum, inspiring future chefs </li>
             <li>Food consultant for the International Taste Institute </li>
