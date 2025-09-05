@@ -116,7 +116,7 @@ function page() {
 
       <div className="overflow-hidden bg-green-950 py-16 px-4 relative">
         <div className="absolute top-8 left-3">
-          <PiUsersThreeFill className="w-20 h-20 text-yellow-500 "/>
+          <PiUsersThreeFill className="w-20 h-20 text-yellow-600 "/>
 
         </div>
         <div className="text-center mb-5">
