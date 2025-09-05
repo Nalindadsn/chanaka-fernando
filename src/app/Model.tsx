@@ -595,7 +595,7 @@ export function FoodMenu() {
                 </div>{" "}
               </li>
               <li className="menuitem cat3 alert alert-warning" data-catid="3">
-                <h4 className="bg-green-950 p-2 text-yellow-500 mt-5">
+                <h4 className=" p-2 text-yellow-500 mt-5">
                   Hot Starters
                 </h4>
                 <div></div>
