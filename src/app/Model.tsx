@@ -2183,7 +2183,7 @@ export function FoodMenu() {
         <div className="grid gap-4"></div>
         <DialogFooter>
           <DialogClose asChild>
-            <Button variant="outline">Cancel</Button>
+            <Button variant="outline">Close</Button>
           </DialogClose>
         </DialogFooter>
       </DialogContent>
