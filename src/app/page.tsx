@@ -13,6 +13,7 @@ import Products from "./Products";
 import JetCatering from "./JetCatering";
 import { CardGlow } from "@/components/ui/card-glow";
 import { GiJetFighter } from "react-icons/gi";
+import { MdFastfood } from "react-icons/md";
 
 function page() {
   return (
@@ -65,12 +66,23 @@ function page() {
       {/* <JetCatering/> */}
       <div className="overflow-hidden">
         <div className="md:flex    text white items-center my-12">
-          <div className="m-5 p-8 rounded-tr-3xl  border-yellow-600">
+          
+          <div className="w-full text-center flex justify-center ">
+            <Image
+              src="/private-jet2.png"
+              alt="img"
+              width={410}
+              height={609}
+              className=" relative z-10 md:w-[400px] w-[300px]  max-w-[400px] shadow mr-5"
+            />
+          </div>
+          <div className="m-5 p-8 rounded-tr-3xl  border-yellow-600 order-first">
             <CardGlow>
               <div className="absolute right-0 -top-7"><GiJetFighter className="w-16 h-16 text-yellow-500" /></div>
               <div className="p-5">
-<p className="mb-3  text-6xl text-yellow-600 font-bold">
-              3Flavours Jet Catering
+<p className="mb-3  text-6xl text-yellow-600 font-bold flex">
+              <MdFastfood />
+3Flavours Jet Catering
             </p>
             <h3 className="text-yellow-500"> In-flight Private Jet Catering</h3>
             <p className="text-yellow-100 ">
@@ -98,19 +110,10 @@ function page() {
             </CardGlow>
             
           </div>
-          <div className="w-full text-center flex justify-center ">
-            <Image
-              src="/private-jet2.png"
-              alt="img"
-              width={410}
-              height={609}
-              className=" relative z-10 w-[600px] w-full max-w-[400px] shadow mr-5"
-            />
-          </div>
         </div>
       </div>
 
-      <div className="overflow-hidden">
+      <div className="overflow-hidden bg-green-950 py-16 px-4">
         <div className="text-center mb-5">
           <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400">
             Testimonials
