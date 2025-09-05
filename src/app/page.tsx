@@ -103,7 +103,7 @@ function page() {
                   satisfying meals and pre-touchdown appetisers.
                 </p>
                 <div className="w-full mb-4 px-2 ">
-                  <div className="h-full py-4  flex w-full rounded-br-xl  items-center ">
+                  <div className="h-full py-4  flex w-full rounded-br-xl  items-center justify-between">
                     <Link
                       href="/posts/3flavours-jet-catering"
                       className="text-white flex"
@@ -111,7 +111,13 @@ function page() {
                       View Post
                       <ArrowRight />
                     </Link>
-                    <FoodMenu />
+                 <div className="relative">
+                  <div className="absolute right-0 bottom-9">
+                    
+                    <div className="loader"></div>
+                  </div>
+                  <FoodMenu />
+                  </div>   
                   </div>
                 </div>{" "}
               </div>
