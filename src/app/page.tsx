@@ -87,7 +87,7 @@ function page() {
             <div className="w-full mb-4 px-2 ">
               <div className="h-full py-4   rounded-br-xl flex items-center ">
                 <Link
-                  href="/posts/sri-lankan-capture"
+                  href="/posts/3flavours-jet-catering"
                   className="text-white flex"
                 >
                   View Post

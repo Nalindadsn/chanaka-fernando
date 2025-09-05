@@ -83,15 +83,32 @@ async function page({params}:any) {
                       height={720}
                     />
       </div>
+    },
+    {
+      slug:"3flavours-jet-catering",
+      title:"3Flavours Jet Catering",
+      image:"/sri-lankan-capture.avif",
+      description:<div>
+        <h1>3Flavours Jet Catering</h1>
+        <Image
+                      className=" md:w-full mx-auto max-w-[400px]"
+                      src="/private-jet2.png"
+                      alt="projects"
+                      width={600}
+                      height={400}
+                    />
+                    <br/>
+       
+      </div>
     }
   ]
   const paramsSlug=(await params)?.slug
   const post=posts.filter(post=>post.slug==paramsSlug)
   return (
     <div>
-      <PageHeader page={post[0].title} icon={<Book className='w-4 h-4 text-yellow-600'/>}/>
+      <PageHeader page={post[0]?.title} icon={<Book className='w-4 h-4 text-yellow-600'/>}/>
       <div className='max-w-screen-xl mx-auto px-4 flex items-center justify-start  md:px-8 '>
-{post[0].description}
+{post[0]?.description}
       </div>
     </div>
   )
