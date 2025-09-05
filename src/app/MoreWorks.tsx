@@ -56,7 +56,7 @@ function MoreWorks() {
                
                 <div className="flex gap-1 absolute bottom-0 right-0 ">
                   
-                    <Link href="/posts/sri-lankan-capture" className="flex gap-2 mb-2 mr-2">
+                    <Link href="/posts//3flavours-jet-catering" className="flex gap-2 mb-2 mr-2">
                      see more <ArrowRight className="hover:text-yellow-500"/>
                     </Link>
                 </div>
