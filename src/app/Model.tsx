@@ -586,7 +586,7 @@ export function FoodMenu() {
                   </div>
                   <div className="col-md-8 col-sm-6 col-xs-9">
                     {" "}
-                    <h4 className="bg-green-950 p-2 text-yellow-500 mt-5">
+                    <h4 className="font-bold p-2 text-white mt-5">
                       Hot Starters &amp; Dumplings
                     </h4>
                     <div> </div>
@@ -595,7 +595,7 @@ export function FoodMenu() {
                 </div>{" "}
               </li>
               <li className="menuitem cat3 alert alert-warning" data-catid="3">
-                <h4 className=" p-2 text-yellow-500 mt-5">
+                <h4 className="bg-green-950 p-2 text-yellow-500 mt-5">
                   Hot Starters
                 </h4>
                 <div></div>
@@ -1584,7 +1584,7 @@ export function FoodMenu() {
                   </div>
                   <div className="col-md-8 col-sm-6 col-xs-9">
                     {" "}
-                    <h4 className="bg-green-950 p-2 text-yellow-500 mt-5">
+                    <h4 className=" p-2 text-white font-bold mt-5">
                       Grill Menu
                     </h4>
                     <div> </div>
@@ -1996,7 +1996,7 @@ export function FoodMenu() {
                   </div>
                   <div className="col-md-8 col-sm-6 col-xs-9">
                     {" "}
-                    <h4 className="bg-green-950 p-2 text-yellow-500 mt-5">
+                    <h4 className=" p-2 text-white font-bold mt-5">
                       Dessert Menu
                     </h4>
                     <div> </div>
