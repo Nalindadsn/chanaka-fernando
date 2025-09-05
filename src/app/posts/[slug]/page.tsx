@@ -10,7 +10,24 @@ async function page({params}:any) {
       title:"Sri Lankan Capture",
       image:"/sri-lankan-capture.avif",
       description:<div>
-        <h1>Sri Lankan Capture</h1>
+        
+          <div className=" mb-5">
+          <h2 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400">
+            Sri Lankan Capture
+          </h2>
+          <p className="mt-4 text-xl text-neutral-600 dark:text-neutral-400">
+            World Association of Master Chef
+          </p>
+        </div>
+
+        <Image
+                      className=" md:w-full mx-auto"
+                      src="/posts/sri-lankan-capture/sri-lankan-capture-main.png"
+                      alt="projects"
+                      width={1280}
+                      height={720}
+                    />
+                    <br/>
         <Image
                       className=" md:w-full mx-auto"
                       src="/posts/sri-lankan-capture/1.jpeg"
