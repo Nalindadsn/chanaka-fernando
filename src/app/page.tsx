@@ -111,13 +111,12 @@ function page() {
                       View Post
                       <ArrowRight />
                     </Link>
-                 <div className="relative">
-                  <div className="absolute right-0 bottom-9">
-                    
-                    <div className="loader"></div>
-                  </div>
-                  <FoodMenu />
-                  </div>   
+                    <div className="relative">
+                      <div className="absolute right-0 bottom-9">
+                        <div className="loader"></div>
+                      </div>
+                      <FoodMenu />
+                    </div>
                   </div>
                 </div>{" "}
               </div>
@@ -146,9 +145,24 @@ function page() {
         <Products />
       </div>
       <div className="mt-20 bg-green-950">
-        <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 flex gap-5">
-          <Phone />
-          Contact me
+        <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 md:flex gap-5">
+           <Image src={`/appointment.png`} width={200} height={200} alt=""  className="w-[200px] h-[200px] mx-auto"/>
+          
+          <div className="w-full ">
+            <ul>
+              <li></li>
+            </ul>
+            <li>Personal chef for several private jet companies </li>
+            <li>Ambassador for Ambassadors of Taste for the Global Gastronomy </li>
+            <li>Member of The Chef’s Forum, inspiring future chefs </li>
+            <li>Food consultant for the International Taste Institute </li>
+            <li>Project Consultant for 3flavours project, London</li>
+            <li>Executive Chef for Buddha Bar across 22 countries </li>
+            <li>Head Chef for Chai Ki, Canary Wharf </li>
+            <li>Head Chef for Del Aziz, Bermondsey </li>
+            <li>Senior Sous Chef for Boisdale of Belgravia</li>
+            
+            </div>
         </div>
       </div>
     </div>
