@@ -123,7 +123,7 @@ async function page({params}:any) {
 
 <Nav/>
 
-       <div className="overflow-hidden">
+       <div className="overflow-hidden border border-yellow-600 rounded-3xl">
                <div className="md:flex    text white  ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
