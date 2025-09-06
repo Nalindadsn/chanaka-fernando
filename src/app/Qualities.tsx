@@ -67,7 +67,16 @@ function Qualities() {
             {item.title == "2" ? (
               <div className="text-right relative flex justify-end items-end overflow-hidden border-t-8  border-yellow-600">
                 <div className="md:hidden flex">
-                  <div className="overflow-y-auto max-h-[200px] min-w-[200px] absolute bottom-0 left-0 mr-[40%] z-[10] text-shadow-md bg-[rgba(0,0,0,.8)] p-3  ">
+                  <div className="overflow-y-auto 
+                  
+                   overflow-y-auto
+  [&::-webkit-scrollbar]:w-2
+  [&::-webkit-scrollbar-track]:rounded-full
+  
+  [&::-webkit-scrollbar-thumb]:rounded-full
+  dark:[&::-webkit-scrollbar-track]:bg-neutral-600
+  dark:[&::-webkit-scrollbar-thumb]:bg-yellow-500
+                  max-h-[200px] min-w-[200px] absolute bottom-2 left-0 mr-[40%] z-[10] text-shadow-md bg-[rgba(0,0,0,.8)] p-3  ">
                     <span className="text-yellow-500 text-5xl">{`“`}</span>I
                     care about my clients, and I enjoy the challenge of meeting
                     their expectations. It{`’`}s my responsibility to meet their
