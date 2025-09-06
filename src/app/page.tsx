@@ -132,7 +132,7 @@ function page() {
         </div>
         <div className="text-center mb-5">
           <h2 className="text-4xl font-bold text-yellow-600">Testimonials</h2>
-          <p className="mt-4 text-xl text-neutral-600 dark:text-neutral-400">
+          <p className="mt-4 text-xl text-neutral-400 ">
             What our customers are saying
           </p>
         </div>

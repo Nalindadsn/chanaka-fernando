@@ -62,7 +62,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                     className=" relative z-10 w-[80px] "
                   /> */}
                 </div>
-                <div className="text-sm font-normal  text-neutral-800 dark:text-neutral-300 ">
+                <div className="text-sm font-normal  text-neutral-300 ">
                   <div className="flex w-full justify-center">
                     <IconStarFilled className="text-yellow-400 w-4 h-4"/>
                     <IconStarFilled className="text-yellow-400 w-4 h-4"/>
