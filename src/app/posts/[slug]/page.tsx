@@ -1,4 +1,4 @@
-import FoodMenu from '@/app/Model'
+import FoodMenu from '@/app/FoodMenu'
 import Nav from '@/components/jetCatering/Nav'
 import PageHeader from '@/components/PageHeader'
 import { CardGlow } from '@/components/ui/card-glow'
