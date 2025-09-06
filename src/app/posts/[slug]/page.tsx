@@ -1,5 +1,6 @@
 import FoodMenu from '@/app/FoodMenu'
 import JetCateringGallery from '@/app/JetCateringGallery'
+import JetCateringGallery1 from '@/app/JetCateringGallery1'
 import Nav from '@/components/jetCatering/Nav'
 import PageHeader from '@/components/PageHeader'
 import { CardGlow } from '@/components/ui/card-glow'
@@ -169,6 +170,8 @@ async function page({params,searchParams}:any) {
 
 </p>
                </div>
+<JetCateringGallery1/>
+
              </div>}
         {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Main Menu</h3>3Flavours Jet Catering 
         <FoodMenu/>
