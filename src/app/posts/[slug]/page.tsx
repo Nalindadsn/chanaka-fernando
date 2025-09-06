@@ -123,7 +123,7 @@ async function page({params,searchParams}:any) {
 
 <Nav page={(await searchParams)?.page}/>
 
-       {(await searchParams)?.page=="intro"&&<div className="overflow-hidden border border-yellow-600 rounded-3xl">
+       {(await searchParams)?.page=="intro" || (await searchParams)?.page==null &&<div className="overflow-hidden border border-yellow-600 rounded-3xl">
                <div className="md:flex    text white  ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
