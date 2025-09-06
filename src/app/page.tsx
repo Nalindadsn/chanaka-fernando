@@ -92,7 +92,7 @@ function page() {
                   {" "}
                   In-flight Private Jet Catering
                 </h3>
-                <p className="text-yellow-100 ">
+                <p className="text-neutral-800 dark:text-yellow-100 ">
                   <br />
                   When your clients are flying at 30,000 feet, they’ll want a
                   personalised level of in-flight private jet catering that’s
