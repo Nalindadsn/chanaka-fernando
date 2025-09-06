@@ -11,13 +11,13 @@ const Nav = () => {
     <div className="px-4">
         <div className="flex items-center justify-between">
            
-            <div className="flex items-center justify-center gap-5">
-                <a aria-current="page"
+            <ul className=" md:flex md:items-center md:justify-center md:gap-5">
+                <li aria-current="page"
                     className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                    href="#">How it works</a>
-                <a className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
-                    href="#">Pricing</a>
-            </div>
+                    >Jet Catering</li>
+                <li className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
+                    >Gallery</li>
+            </ul>
             
         </div>
     </div>

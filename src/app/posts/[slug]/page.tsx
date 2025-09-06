@@ -124,7 +124,7 @@ async function page({params}:any) {
 <Nav/>
 
        <div className="overflow-hidden">
-               <div className="md:flex    text white items-center ">
+               <div className="md:flex    text white  ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
                      src="/posts/jet-catering/1.jpg"
