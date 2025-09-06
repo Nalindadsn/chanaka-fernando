@@ -177,7 +177,7 @@ function page() {
         <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 md:flex justify-center items-center gap-5">
           <div className="text-center mb-5">
             
-            <div className="w-[150px] h-[150px] bg-yellow-500 rounded-full flex justify-center items-center text-center">
+            <div className="mx-auto w-[150px] h-[150px] bg-yellow-500 rounded-full flex justify-center items-center text-center">
               <div className="text-center">
                 APPOINTMENT
                 <br />
