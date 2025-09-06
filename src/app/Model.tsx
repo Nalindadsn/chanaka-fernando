@@ -16,7 +16,7 @@ export function FoodMenuModel() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">MENU</Button>
+        <Button variant="outline" className="z-[10000] cursor-pointer">MENU</Button>
       </DialogTrigger>
       <DialogContent className="w-full h-screen overflow-y-auto m-0 p-0 z-[10000]">
         <DialogHeader>
