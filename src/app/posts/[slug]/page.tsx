@@ -124,7 +124,7 @@ async function page({params,searchParams}:any) {
 
 <Nav page={(await searchParams)?.page}/>
 
-       {(await searchParams)?.page=="intro" || (await searchParams)?.page==null &&<div className="overflow-hidden border border-yellow-600 rounded-3xl">
+       {((await searchParams)?.page=="intro" || (await searchParams)?.page==null) &&<div className="overflow-hidden border border-yellow-600 rounded-3xl">
                <div className="md:flex    text white  ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
@@ -170,7 +170,7 @@ async function page({params,searchParams}:any) {
 </p>
                </div>
              </div>}
-        {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Menu</h3>3Flavours Jet Catering 
+        {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Main Menu</h3>3Flavours Jet Catering 
         <FoodMenu/>
         </div>}
        
