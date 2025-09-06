@@ -13,7 +13,7 @@ const Nav = ({ page }: any) => {
               <li
                 aria-current="page"
                 className={`${
-                  page == "intro" ? "bg-yellow-600" : "bg-white/80"
+                  (page == "intro" || page==null) ? "bg-yellow-600" : "bg-white/80"
                 }  inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-yellow-500 hover:text-gray-900 mr-1`}
               >
                 <Link href="/posts/3flavours-jet-catering?page=intro#menu">
