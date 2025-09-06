@@ -28,7 +28,7 @@ function page() {
           <Qualities />
         </Suspense>
       </div>
-      <div className="bg-neutral-800 py-10 px-4 mt-4">
+      <div className="bg-neutral-800 py-10 px-4 mt-4 md:block hidden">
 <div className="container max-w-5xl mx-auto my-10 px-4">
         <CardGlow className="flex items-center ">
           <div>
