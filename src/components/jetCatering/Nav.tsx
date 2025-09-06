@@ -5,7 +5,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="relative w-full mb-3 container mx-auto">
+    <div className="relative w-full mb-3 ">
 
 <header
     className=" inset-x-0 top-0 z-30 mx-auto w-full py-3 shadow backdrop-blur-lg md:top-6 md:rounded-3xl ">
