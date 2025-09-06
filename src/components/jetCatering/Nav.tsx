@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React from "react";
 
 const Nav = () => {
@@ -14,7 +15,7 @@ const Nav = () => {
             <ul className=" md:flex md:items-center  md:gap-5">
                 <li aria-current="page"
                     className="bg-yellow-600 inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-yellow-500 hover:text-gray-900"
-                    >Jet Catering</li>
+                    ><Link href="/posts/3flavours-jet-catering?page=jet-catering">Jet Catering</Link></li>
                 <li className="bg-white/80 inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
                     >Menu</li>
                 <li className="bg-white/80 inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
