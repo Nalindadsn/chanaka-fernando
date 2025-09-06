@@ -1,4 +1,5 @@
 import FoodMenu from '@/app/Model'
+import Nav from '@/components/jetCatering/Nav'
 import PageHeader from '@/components/PageHeader'
 import { CardGlow } from '@/components/ui/card-glow'
 import { ArrowRight, Book } from 'lucide-react'
@@ -119,11 +120,14 @@ async function page({params}:any) {
       image:"/sri-lankan-capture.avif",
       description:<div>
        
+
+<Nav/>
+
        <div className="overflow-hidden">
                <div className="md:flex    text white items-center ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
-                     src="/private-jet2.png"
+                     src="/posts/jet-catering/1.jpg"
                      alt="img"
                      width={410}
                      height={609}
