@@ -169,7 +169,9 @@ async function page({params,searchParams}:any) {
 </p>
                </div>
              </div>}
-        {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Menu</h3>3Flavours Jet Catering </div>}
+        {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Menu</h3>3Flavours Jet Catering 
+        <FoodMenu/>
+        </div>}
        
         {(await searchParams)?.page=="gallery"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'>3Flavours Jet Catering <h3 className='text-3xl'>Gallery</h3></div>}
        

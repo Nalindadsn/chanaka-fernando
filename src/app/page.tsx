@@ -15,7 +15,7 @@ import { CardGlow } from "@/components/ui/card-glow";
 import { GiJetFighter } from "react-icons/gi";
 import { MdFastfood } from "react-icons/md";
 import { PiUsersThreeFill } from "react-icons/pi";
-import FoodMenu from "./Model";
+import FoodMenuModel from "./Model";
 import { Button } from "@/components/ui/button";
 
 function page() {
@@ -61,8 +61,8 @@ function page() {
             <Image
               src="/sri-lankan-capture.avif"
               alt="img"
-              width={410}
-              height={609}
+              width={679}
+              height={469}
               className=" relative z-10 w-[500px] w-full"
             />
           </div>
@@ -100,8 +100,8 @@ function page() {
             <Image
               src="/private-jet2.png"
               alt="img"
-              width={410}
-              height={609}
+              width={630}
+              height={481}
               className=" relative z-10 md:w-[400px] w-[300px]  max-w-[400px] shadow mr-5"
             />
           </div>
@@ -141,9 +141,9 @@ function page() {
                     </Link>
                     <div className="relative">
                       <div className="absolute right-0 bottom-9">
-                        <div className="loader"></div>
+                        <div className="loader z-1"></div>
                       </div>
-                      <FoodMenu />
+                      <FoodMenuModel />
                     </div>
                   </div>
                 </div>{" "}
