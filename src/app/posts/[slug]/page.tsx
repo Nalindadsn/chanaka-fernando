@@ -1,7 +1,12 @@
+import FoodMenu from '@/app/Model'
 import PageHeader from '@/components/PageHeader'
-import { Book } from 'lucide-react'
+import { CardGlow } from '@/components/ui/card-glow'
+import { ArrowRight, Book } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
+import { GiJetFighter } from 'react-icons/gi'
+import { MdFastfood } from 'react-icons/md'
 
 async function page({params}:any) {
   const posts=[
@@ -113,15 +118,47 @@ async function page({params}:any) {
       title:"3Flavours Jet Catering",
       image:"/sri-lankan-capture.avif",
       description:<div>
-        <h1>3Flavours Jet Catering</h1>
-        <Image
-                      className=" md:w-full mx-auto max-w-[400px]"
-                      src="/private-jet2.png"
-                      alt="projects"
-                      width={600}
-                      height={400}
-                    />
-                    <br/>
+       
+       <div className="overflow-hidden">
+               <div className="md:flex    text white items-center my-12">
+                 <div className="w-full text-center flex justify-center ">
+                   <Image
+                     src="/private-jet2.png"
+                     alt="img"
+                     width={410}
+                     height={609}
+                     className=" relative z-10 md:w-[400px] w-[300px]  max-w-[400px] shadow mr-5"
+                   />
+                 </div>
+                 <div className=" p-2 md:p-8 rounded-tr-3xl  border-yellow-600 order-first">
+                     
+                     <div className="p-5">
+                       <p className="mb-3  text-4xl sm:text-6xl text-yellow-600 font-bold flex">
+                         <MdFastfood />
+                         3Flavours Jet Catering
+                       </p>
+                       <h3 className="text-yellow-500">
+                         {" "}
+                         In-flight Private Jet Catering
+                       </h3>
+                       <p className="text-neutral-800 dark:text-yellow-100 ">
+                         <br />
+                         When your clients are flying at 30,000 feet, they’ll want a
+                         personalised level of in-flight private jet catering that’s
+                         always on time and meets any type of dietary requirement. We
+                         offer a flexible and reactive 24/7 service. Whether it’s night
+                         or day, a leisure or business trip, our prestigious,
+                         experienced chefs have the ability to predict the culinary
+                         needs of your clients. They know how to plan ahead for
+                         satisfying meals and pre-touchdown appetisers.
+                       </p>
+                       
+                     </div>
+                     
+                 </div>
+               </div>
+             </div>
+        
        
       </div>
     }
