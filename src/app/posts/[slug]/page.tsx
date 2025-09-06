@@ -9,7 +9,7 @@ import React from 'react'
 import { GiJetFighter } from 'react-icons/gi'
 import { MdFastfood } from 'react-icons/md'
 
-async function page({params}:any) {
+async function page({params,searchParams}:any) {
   const posts=[
     {
       slug:"sri-lankan-capture",
@@ -119,11 +119,11 @@ async function page({params}:any) {
       title:"3Flavours Jet Catering",
       image:"/sri-lankan-capture.avif",
       description:<div>
-       
+       {/* {JSON.stringify((await searchParams)?.page)} */}
 
-<Nav/>
+<Nav page={(await searchParams)?.page}/>
 
-       <div className="overflow-hidden border border-yellow-600 rounded-3xl">
+       {(await searchParams)?.page=="intro"&&<div className="overflow-hidden border border-yellow-600 rounded-3xl">
                <div className="md:flex    text white  ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
@@ -168,8 +168,10 @@ async function page({params}:any) {
 
 </p>
                </div>
-             </div>
-        
+             </div>}
+        {(await searchParams)?.page=="menu"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'><h3 className='text-3xl'>Menu</h3>3Flavours Jet Catering </div>}
+       
+        {(await searchParams)?.page=="gallery"&&<div className='overflow-hidden border border-yellow-600 rounded-3xl p-5 w-full'>3Flavours Jet Catering <h3 className='text-3xl'>Gallery</h3></div>}
        
       </div>
     }
