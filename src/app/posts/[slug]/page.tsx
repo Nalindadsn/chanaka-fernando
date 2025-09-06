@@ -118,7 +118,7 @@ async function page({params,searchParams}:any) {
       slug:"3flavours-jet-catering",
       title:"3Flavours Jet Catering",
       image:"/sri-lankan-capture.avif",
-      description:<div>
+      description:<div className='w-full'>
        {/* {JSON.stringify((await searchParams)?.page)} */}
 
 <Nav page={(await searchParams)?.page}/>
