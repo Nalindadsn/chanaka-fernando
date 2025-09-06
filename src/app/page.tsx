@@ -33,7 +33,7 @@ function page() {
           <CardGlow className="flex items-center ">
             <div>
               <Image
-                src="/chanaka-fernando.png"
+                src="/chanaka-fernando1.png"
                 alt="img"
                 width={410}
                 height={609}

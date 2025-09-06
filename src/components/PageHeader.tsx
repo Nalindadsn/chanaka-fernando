@@ -32,7 +32,7 @@ function PageHeader({page,icon}:{page:string,icon?:React.ReactNode}) {
                    {icon} {page}
                     </div>
                   <Image
-                    src="/chanaka-fernando.png"
+                    src="/chanaka-fernando1.png"
                     alt="img"
                     width={200}
                     height={200}
