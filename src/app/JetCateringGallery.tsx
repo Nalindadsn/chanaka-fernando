@@ -16,7 +16,7 @@ function JetCateringGallery() {
         </div>
 
         <section className=" antialiased  ">
-          <div className="mx-auto max-w-screen-xl px-4 2xl:px-0">
+          <div className="mx-auto max-w-screen-xl  2xl:px-0">
             <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
               <div className=" border border-neutral-800 bg-gradient-to-r from-black to-neutral-950 text-yellow-600  shadow-sm ">
                 <div className="h-56 w-full">
