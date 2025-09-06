@@ -49,16 +49,25 @@ function Qualities() {
             className={cn("group relative col-span-1", item.className,i==0&& "m-5  overflow-hidden" )}
           >
             
-              {item.title=="2"?<div className="text-right flex justify-end items-end overflow-hidden border-t-8  border-yellow-600">
+              {item.title=="2"?<div className="text-right relative flex justify-end items-end overflow-hidden border-t-8  border-yellow-600">
                 <div className="md:hidden flex">
-<div className="overflow-hidden">a Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero enim expedita fuga iusto dolorem maiores atque dolore nam blanditiis veritatis beatae vitae neque ratione, non reprehenderit molestias? Qui, libero.</div>
+<div className="overflow-hidden min-w-[200px] absolute bottom-0 left-0 mr-[40%] z-[10] text-shadow-md bg-[rgba(0,0,0,.8)] p-3  "><span className="text-yellow-500 text-5xl">{`“`}</span>I care about my clients, and I enjoy the
+challenge of meeting their expectations. It{`’`}s
+my responsibility to meet their needs and to
+deliver the best of the best. As more people
+are health conscious these days, my clients
+are looking for healthy meals with fresh
+ingredients no matter what time of the day.
+Classic dishes can be tweaked, and I can
+introduce creative ideas to design specialist
+dishes.<br/><span className="text-yellow-500 text-5xl">{`”`}</span></div>
                 </div>
                 <Image
                               src="/chanaka-fernando-header.png"
                               alt="img"
                               width={410}
                               height={609}
-                              className="scale-110 relative z-10 w-[400px] "
+                              className="scale-110 relative  w-[400px] z-1"
                             /></div>:<CardGlow><div className="flex flex-col justify-between min-h-[200px]">
                 <div>
                   <div className="flex items-center gap-2 mb-2">
