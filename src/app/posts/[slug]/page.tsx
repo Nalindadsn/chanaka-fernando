@@ -120,7 +120,7 @@ async function page({params}:any) {
       description:<div>
        
        <div className="overflow-hidden">
-               <div className="md:flex    text white items-center my-12">
+               <div className="md:flex    text white items-center ">
                  <div className="w-full text-center flex justify-center ">
                    <Image
                      src="/private-jet2.png"
