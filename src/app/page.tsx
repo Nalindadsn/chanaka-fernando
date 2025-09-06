@@ -162,7 +162,7 @@ function page() {
               </Link></Button>
             </div>
           </div>
-          <div className="">
+          <div className="text-white">
             <ul>
               <li className="flex items-center mb-2 gap-2" >
                 <svg
