@@ -6,7 +6,7 @@ import TechStack from "./TechStack";
 import MoreWorks from "./MoreWorks";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Dot, Phone } from "lucide-react";
+import { ArrowRight, Calendar, Dot, Phone } from "lucide-react";
 import EmblaCarousel from "@/components/testimonials/js/EmblaCarousel";
 import Emb from "@/components/testimonials/js";
 import Products from "./Products";
@@ -29,32 +29,33 @@ function page() {
         </Suspense>
       </div>
       <div className="bg-neutral-800 py-10 px-4 mt-4 md:block hidden">
-<div className="container max-w-5xl mx-auto my-10 px-4">
-        <CardGlow className="flex items-center ">
-          <div>
-            <Image
-              src="/chanaka-fernando.png"
-              alt="img"
-              width={410}
-              height={609}
-              className="scale-110 relative  w-[400px] z-1"
-            />
-          </div>
-          <div className="overflow-hidden min-w-[200px]   z-[10] text-shadow-md  p-3 text-center ">
-            <span className="text-yellow-500 text-5xl">{`“`}</span>I care about
-            my clients, and I enjoy the challenge of meeting their expectations.
-            It{`’`}s my responsibility to meet their needs and to deliver the
-            best of the best. As more people are health conscious these days, my
-            clients are looking for healthy meals with fresh ingredients no
-            matter what time of the day. Classic dishes can be tweaked, and I
-            can introduce creative ideas to design specialist dishes.
-            <br />
-            <span className="text-yellow-500 text-5xl float-right">{`”`}</span>
-          </div>
-        </CardGlow>
+        <div className="container max-w-5xl mx-auto my-10 px-4">
+          <CardGlow className="flex items-center ">
+            <div>
+              <Image
+                src="/chanaka-fernando.png"
+                alt="img"
+                width={410}
+                height={609}
+                className="scale-110 relative  w-[400px] z-1"
+              />
+            </div>
+            <div className="overflow-hidden min-w-[200px]   z-[10] text-shadow-md  p-3 text-center ">
+              <span className="text-yellow-500 text-5xl">{`“`}</span>I care
+              about my clients, and I enjoy the challenge of meeting their
+              expectations. It{`’`}s my responsibility to meet their needs and
+              to deliver the best of the best. As more people are health
+              conscious these days, my clients are looking for healthy meals
+              with fresh ingredients no matter what time of the day. Classic
+              dishes can be tweaked, and I can introduce creative ideas to
+              design specialist dishes.
+              <br />
+              <span className="text-yellow-500 text-5xl float-right">{`”`}</span>
+            </div>
+          </CardGlow>
+        </div>
       </div>
-      </div>
-      
+
       <div>
         <div className="md:flex gap-5 bg-green-950  text white items-center mb-12">
           <div className="w-full border-t-8 border-yellow-600">
@@ -175,13 +176,14 @@ function page() {
       <div className="mt-20 bg-green-950">
         <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 md:flex justify-center items-center gap-5">
           <div className="text-center mb-5">
-            <Image
-              src={`/appointment.png`}
-              width={200}
-              height={200}
-              alt=""
-              className="w-[200px] h-[200px] mx-auto"
-            />
+            
+            <div className="w-[150px] h-[150px] bg-yellow-500 rounded-full flex justify-center items-center text-center">
+              <div className="text-center">
+                APPOINTMENT
+                <br />
+                <Calendar className="mx-auto" />
+              </div>
+            </div>
             <div>
               <Button asChild className="mt-5">
                 <Link href="/contact" className=" font-semibold">
