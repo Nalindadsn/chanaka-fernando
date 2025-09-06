@@ -16,6 +16,7 @@ import { GiJetFighter } from "react-icons/gi";
 import { MdFastfood } from "react-icons/md";
 import { PiUsersThreeFill } from "react-icons/pi";
 import FoodMenu from "./Model";
+import { Button } from "@/components/ui/button";
 
 function page() {
   return (
@@ -155,9 +156,10 @@ function page() {
               className="w-[200px] h-[200px] mx-auto"
             />
             <div>
-              <Link href="/contact" className="text-yellow-600 text-2xl font-semibold">
+              <Button asChild className="mt-5">
+              <Link href="/contact" className=" font-semibold">
               <Phone className="inline-block mb-1"/> Contact me
-              </Link>
+              </Link></Button>
             </div>
           </div>
           <div className="">
