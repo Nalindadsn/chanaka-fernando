@@ -145,24 +145,181 @@ function page() {
         <Products />
       </div>
       <div className="mt-20 bg-green-950">
-        <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 md:flex gap-5">
-           <Image src={`/appointment.png`} width={200} height={200} alt=""  className="w-[200px] h-[200px] mx-auto"/>
-          
-          <div className="w-full ">
-            <ul>
-              <li></li>
-            </ul>
-            <li><Dot/> Personal chef for several private jet companies </li>
-            <li>Ambassador for Ambassadors of Taste for the Global Gastronomy </li>
-            <li>Member of The Chef’s Forum, inspiring future chefs </li>
-            <li>Food consultant for the International Taste Institute </li>
-            <li>Project Consultant for 3flavours project, London</li>
-            <li>Executive Chef for Buddha Bar across 22 countries </li>
-            <li>Head Chef for Chai Ki, Canary Wharf </li>
-            <li>Head Chef for Del Aziz, Bermondsey </li>
-            <li>Senior Sous Chef for Boisdale of Belgravia</li>
-            
+        <div className=" container mx-auto py-8 px-4 lg:py-16 lg:px-6 md:flex justify-center items-center gap-5">
+          <div className="text-center mb-5">
+            <Image
+              src={`/appointment.png`}
+              width={200}
+              height={200}
+              alt=""
+              className="w-[200px] h-[200px] mx-auto"
+            />
+            <div>
+              <Link href="/contact" className="text-yellow-600 text-2xl font-semibold">
+              <Phone className="inline-block mb-1"/> Contact me
+              </Link>
             </div>
+          </div>
+          <div className="">
+            <ul>
+              <li className="flex items-center mb-2 gap-2" >
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+                Personal chef for several private jet companies{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>
+                Ambassador for Ambassadors of Taste for the Global Gastronomy{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Member of The Chef’s Forum, inspiring future chefs </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Food consultant for the International Taste Institute </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>&nbsp;Project Consultant for 3flavours project, London</li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Executive Chef for Buddha Bar across 22 countries </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Head Chef for Chai Ki, Canary Wharf </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Head Chef for Del Aziz, Bermondsey </li>
+              <li className="flex items-center mb-2 gap-2" >
+                
+                <svg
+                  className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 16 12"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M1 5.917 5.724 10.5 15 1.5"
+                  />
+                </svg>Senior Sous Chef for Boisdale of Belgravia</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
