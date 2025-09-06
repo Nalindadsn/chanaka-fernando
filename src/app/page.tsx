@@ -28,8 +28,35 @@ function page() {
           <Qualities />
         </Suspense>
       </div>
+      <div className="bg-neutral-800 py-10 px-4 mt-4">
+<div className="container max-w-5xl mx-auto my-10 px-4">
+        <CardGlow className="flex items-center ">
+          <div>
+            <Image
+              src="/chanaka-fernando.png"
+              alt="img"
+              width={410}
+              height={609}
+              className="scale-110 relative  w-[400px] z-1"
+            />
+          </div>
+          <div className="overflow-hidden min-w-[200px]   z-[10] text-shadow-md  p-3 text-center ">
+            <span className="text-yellow-500 text-5xl">{`“`}</span>I care about
+            my clients, and I enjoy the challenge of meeting their expectations.
+            It{`’`}s my responsibility to meet their needs and to deliver the
+            best of the best. As more people are health conscious these days, my
+            clients are looking for healthy meals with fresh ingredients no
+            matter what time of the day. Classic dishes can be tweaked, and I
+            can introduce creative ideas to design specialist dishes.
+            <br />
+            <span className="text-yellow-500 text-5xl float-right">{`”`}</span>
+          </div>
+        </CardGlow>
+      </div>
+      </div>
+      
       <div>
-        <div className="md:flex gap-5 bg-green-950  text white items-center my-12">
+        <div className="md:flex gap-5 bg-green-950  text white items-center mb-12">
           <div className="w-full border-t-8 border-yellow-600">
             <Image
               src="/sri-lankan-capture.avif"
@@ -157,14 +184,15 @@ function page() {
             />
             <div>
               <Button asChild className="mt-5">
-              <Link href="/contact" className=" font-semibold">
-              <Phone className="inline-block mb-1"/> Contact me
-              </Link></Button>
+                <Link href="/contact" className=" font-semibold">
+                  <Phone className="inline-block mb-1" /> Contact me
+                </Link>
+              </Button>
             </div>
           </div>
           <div className="text-white">
             <ul>
-              <li className="flex items-center mb-2 gap-2" >
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -182,8 +210,7 @@ function page() {
                 </svg>
                 Personal chef for several private jet companies{" "}
               </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -201,8 +228,7 @@ function page() {
                 </svg>
                 Ambassador for Ambassadors of Taste for the Global Gastronomy{" "}
               </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -217,9 +243,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Member of The Chef’s Forum, inspiring future chefs </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                Member of The Chef’s Forum, inspiring future chefs{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -234,9 +261,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Food consultant for the International Taste Institute </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                Food consultant for the International Taste Institute{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -251,9 +279,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>&nbsp;Project Consultant for 3flavours project, London</li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                &nbsp;Project Consultant for 3flavours project, London
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -268,9 +297,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Executive Chef for Buddha Bar across 22 countries </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                Executive Chef for Buddha Bar across 22 countries{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -285,9 +315,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Head Chef for Chai Ki, Canary Wharf </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                Head Chef for Chai Ki, Canary Wharf{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -302,9 +333,10 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Head Chef for Del Aziz, Bermondsey </li>
-              <li className="flex items-center mb-2 gap-2" >
-                
+                </svg>
+                Head Chef for Del Aziz, Bermondsey{" "}
+              </li>
+              <li className="flex items-center mb-2 gap-2">
                 <svg
                   className="shrink-0 w-6 h-6 text-green-500 dark:text-green-400 bg-black rounded-full me-2 p-1.5"
                   aria-hidden="true"
@@ -319,7 +351,9 @@ function page() {
                     stroke-width="2"
                     d="M1 5.917 5.724 10.5 15 1.5"
                   />
-                </svg>Senior Sous Chef for Boisdale of Belgravia</li>
+                </svg>
+                Senior Sous Chef for Boisdale of Belgravia
+              </li>
             </ul>
           </div>
         </div>
