@@ -8,7 +8,9 @@ async function page({params}:any) {
     <div >
       <PageHeader page={slug} />    <div className='text-center'>
 
-      {slug}</div>
+      {slug}
+      
+      </div>
     </div>
   )
 }

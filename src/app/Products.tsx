@@ -24,7 +24,7 @@ function Products() {
     <div className="mb-4 grid gap-4 sm:grid-cols-2 md:mb-8 lg:grid-cols-3 xl:grid-cols-4">
       <div className=" bg-gradient-to-r from-green-800 to-green-950 text-yellow-600  shadow-sm ">
         <div className="h-56 w-full">
-          <Link href="/products/3flavors-tea">
+          <Link href="/products/3flavours-tea">
             <Image
               className="h-full w-full  object-cover"
               src="/products/products-1.jpeg"
@@ -37,7 +37,7 @@ function Products() {
         <div className="p-3">
           
 
-          <Link href="/products/3flavors-tea" className="text-lg font-semibold leading-tight hover:underline ">
+          <Link href="/products/3flavours-tea" className="text-lg font-semibold leading-tight hover:underline ">
           3Flavor Tea
           </Link>
 
