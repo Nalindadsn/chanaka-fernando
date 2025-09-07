@@ -60,9 +60,18 @@ function page() {
   ];
   return (
     <div>
-      
       <PageHeader page="Who Am I" icon={<Info className='w-4 h-4 text-yellow-600'/>}/>
       {/* Journey Section */}
+      <div className="w-full">
+           
+           <div className="max-w-3xl mx-auto flex justify-center w-full">
+<div> <span className="text-yellow-500 text-5xl">{`“`}</span> I care about my clients, and I enjoy the challenge of meeting their expectations. It’s my responsibility to meet their needs and to deliver the best of the best. As more people are health conscious these days, my clients are looking for healthy meals with fresh ingredients no matter what time of the day. Classic dishes can be tweaked, and I can introduce creative ideas to design specialist dishes.
+  <br />
+              <span className="text-yellow-500 text-5xl float-right">{`”`}</span></div>
+           </div>
+          
+      </div>
+
       <section className="relative px-4 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <TracingBeam>
