@@ -60,28 +60,53 @@ function page() {
   ];
   return (
     <div>
-      <PageHeader page="Who Am I" icon={<Info className='w-4 h-4 text-yellow-600'/>}/>
+      <PageHeader
+        page="Who Am I"
+        icon={<Info className="w-4 h-4 text-yellow-600" />}
+      />
       {/* Journey Section */}
       <div className="w-full">
-           
-           <div className="max-w-3xl mx-auto flex justify-center w-full">
-<div> <span className="text-yellow-500 text-5xl">{`“`}</span> I care about my clients, and I enjoy the challenge of meeting their expectations. It’s my responsibility to meet their needs and to deliver the best of the best. As more people are health conscious these days, my clients are looking for healthy meals with fresh ingredients no matter what time of the day. Classic dishes can be tweaked, and I can introduce creative ideas to design specialist dishes.
-  <br />
-              <span className="text-yellow-500 text-5xl float-right">{`”`}</span></div>
-           </div>
-          
+        <h2
+          className="text-3xl md:text-5xl font-bold text-center mb-20 bg-clip-text text-transparent 
+              bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400"
+        >
+          Who Am I
+        </h2>
+        <div className="max-w-4xl mx-auto  w-full">
+
+<h2 className="text-3xl font-semibold mb-2 mt-4 text-yellow-600">Welcome to 3Flavours – Where Culinary Excellence Meets Luxury</h2>
+
+At 3Flavours, we are passionate about creating exceptional dining experiences, whether on the ground at our restaurant or in the skies with our private jet catering service. Founded with a commitment to quality, creativity, and client satisfaction, we specialize in delivering flavorful, fresh, and memorable meals tailored to every occasion.
+
+<h2 className="text-3xl font-semibold mb-2 mt-4 text-yellow-600">🍽️ 3Flavours Restaurant – Banbury, UK</h2>
+
+Located at 13-14 North Bar Street, Banbury, OX16 0TF, our restaurant offers a refined dining experience inspired by Sri Lankan and Pan-Asian cuisines. Our chefs craft traditional curries, rice dishes, and other signature recipes using the freshest locally sourced ingredients. Every dish is designed to delight the senses and celebrate the art of fine dining.
+
+<h2 className="text-3xl font-semibold mb-2 mt-4 text-yellow-600">✈️ 3Flavours Private Jet Catering</h2>
+
+Beyond the restaurant, 3Flavours provides bespoke private jet catering, bringing luxury and culinary excellence to the skies. We create personalized menus for our clients, accommodating dietary preferences and requirements while maintaining the highest standards of freshness and quality. From appetizers to desserts, every meal is a carefully curated experience, ensuring that travel is as delicious as it is comfortable.
+
+<h2 className="text-3xl font-semibold mb-2 mt-4 text-yellow-600">Our Philosophy</h2>
+We believe that exceptional food should be accessible anytime, anywhere. Whether reimagining classic dishes or introducing innovative creations, our goal is to deliver an unforgettable culinary journey, crafted with care, creativity, and precision.
+
+          {/* <div>
+            {" "}
+            <span className="text-yellow-500 text-5xl">{`“`}</span> I care about
+            my clients, and I enjoy the challenge of meeting their expectations.
+            It’s my responsibility to meet their needs and to deliver the best
+            of the best. As more people are health conscious these days, my
+            clients are looking for healthy meals with fresh ingredients no
+            matter what time of the day. Classic dishes can be tweaked, and I
+            can introduce creative ideas to design specialist dishes.
+            <br />
+            <span className="text-yellow-500 text-5xl float-right">{`”`}</span>
+          </div> */}
+        </div>
       </div>
 
       <section className="relative px-4 py-20 overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <TracingBeam>
-            <h2
-              className="text-3xl md:text-5xl font-bold text-center mb-20 bg-clip-text text-transparent 
-              bg-gradient-to-b from-neutral-950 to-neutral-500 dark:from-neutral-50 dark:to-neutral-400"
-            >
-             Who Am I
-            </h2>
-
             {/* <TracingBeam className="px-6"> */}
             <div className="md:ml-0 ml-8">
               {/* <Timeline items={journey} /> */}
