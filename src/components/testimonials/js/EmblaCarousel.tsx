@@ -45,6 +45,13 @@ const testiminials=[
     rating:5,
     feedback:"Working with 3Flavours Jet Catering was an absolute pleasure. From the planning stage to the final service, everything was handled with professionalism and care. The food was outstanding—fresh, flavorful, and beautifully presented. Our guests couldn’t stop talking about the experience. Truly a first-class catering service!"
   },
+  {
+    name:"Williams ",
+    position:"Jet Catering",
+    image:"/testiminial/3.jpg",
+    rating:5,
+    feedback:"Chef Chanaka Fernando is an exceptional Executive Chef and Consultant. His expertise in menu development, kitchen management, and culinary innovation has transformed our dining experience. Beyond his remarkable cooking skills, his ability to guide teams, share knowledge, and bring out the best in others truly sets him apart. Working with him has been an inspiring and rewarding journey."
+  },
 ]
   return (
     <section className="embla">
