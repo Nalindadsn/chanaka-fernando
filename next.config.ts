@@ -1,10 +1,9 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   /* config options here */
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
+    // Allows production builds to successfully complete even if your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
   sassOptions: {
@@ -12,4 +11,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default nextConfig as NextConfig;
